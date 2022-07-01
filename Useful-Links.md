@@ -1,0 +1,1 @@
+* User LightSaveUs has created a repository of KoboldAI presets (mostly converted from NovelAI): [https://drive.google.com/drive/folders/1jTXJjKtU0kwLZeWm3pYAfUbSgOry3c_B](https://drive.google.com/drive/folders/1jTXJjKtU0kwLZeWm3pYAfUbSgOry3c_B)
