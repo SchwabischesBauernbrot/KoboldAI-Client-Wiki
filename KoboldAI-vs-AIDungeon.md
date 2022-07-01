@@ -1,13 +1,14 @@
 There are quite a bit of differences between something like AI Dungeon and a program like KoboldAI. 
 
-Service vs Program:
+## Service vs Program
 
 The first important difference is that we do not provide a service, we make a program that anyone can run, for any reason, anywhere, and you are allowed to make modifications to it as you please, host it or release your own version. So it is a do it yourself approach where you will have to find something to run it on (We make that very easy for you even if you don't have a good computer, but it is important to understand for the next answers to your question). We are just a bunch of geeks developing this for fun and anyone with the ability is welcome to contribute and join our work. If people disagree with our approach, they intentionally can just take our work and change it to their liking. That means no ads, no feature restrictions or anything else on the official versions of KoboldAI. And the moment we'd try someone in our community will just make a version with it removed because they can. If someone ever did make a service based on KoboldAI they could modify it to lock features away, but they would have to put that work in themselves and it would not effect anyone outside their service.
 
-Apps and privacy:
+## Apps and privacy
 
 App wise we lack an app for the same reason, KoboldAI itself is the program that is running on a computer or service that you pick yourself. So instead of having an app it makes more sense to be able to open up a browser link and use it the same as the app would have been. After all, nobody would want to run the AI directly on their phone. It would be very slow and not smart at all. Privacy is a similar thing, our program is 100% private and does not send anything back to us. We don't know what you are doing with it unless you tell us and while obviously we are excited to hear the cool things people are doing we don't care about moderation or spying. Because we have no basis to care, anyone can use it for anything legally and anyone could remove any filter we'd put in place so there is no point in harming our users in those ways. But it does depend on where you end up running the AI, if you run it on your own computer it never leaves your computer unless you connect to it from another device over the internet. If you pick Google keep in mind they might be able to read a story, but if you do not save the story and instead download it the chance of them reading it would be very low. They would deliberately have to find a way to extract it from our software. So in general if you do not save a story but download them instead from the save menu, nothing is ever saved outside of your computer and no data leak could ever happen. If you decide to save the story it is as secure as the machine you are running it on (With Google Colab's free service that would be your google drive).
 
+## Experience
 
 Sound good? Lets talk about the differences between AI Dungeon and KoboldAI as far as the experience goes once you have it running.
 
@@ -17,6 +18,6 @@ To play it like AI Dungeon start by picking one of the models listed as Adventur
 
 Once you are setup you can now write the opening of the story. If you want it to be in a Novel style and you picked Nerys or one of the Novel model write it from a first or third person perspective for the best results (I or Henk). If you want to play it as a text adventure game its best to write in second person (You). You can also do your favorites from AI Dungeon. After that you can play it almost like you would play AI Dungeon the only difference is that we give you more control. So instead of "fight the dragon" use "You fight the dragon" if you want to do the action yourself for the best results.
 
+## Conclusion
 
-Conclusion:
 So the TLDR is that KoboldAI gives you much more freedom in every way, you own it, you use it however you like and in a style that you like. The AI is as good as the computer you bring and with the large free services should be on par with Wyvern. The free service I mentioned is called Google Colab and you can use it for free with this link : https://koboldai.org/colab . Grant it the permissions it requests and you can go from there. I do advice to do it on a computer first though, since we still need to refine the mobile UI and colab can be a bit annoying on phones. If you like the experience you can try it out on a phone after.
