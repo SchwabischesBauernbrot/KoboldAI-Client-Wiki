@@ -37,7 +37,7 @@ Rule 4("Every mirror is a portal to another world.")<br>
 Rule 5("Pigeons can't be trusted.")<br>
 }]<br>
 
-Of course other wording and experimentation for a global ruleset can be tried, such as:<br>
+Of course other wording and experimentation for a global ruleset can be tried, such as:<br><br>
 [Urgent Facts About The World("Applicable At All Times")<br>
 {<br>
 Fact 1("Every time someone tries to watch television the power goes out.")<br>
