@@ -28,5 +28,14 @@ Let's say I'm using a Fairseq model and having the same issue as the W++ example
 ## W++ madness
 As mentioned in the quick explainer, W++ appears to have a great influence on instructing an AI how to behave. The example below, when pasted in memory while using an Opt or a Neo model, can show how the entire generation behavior of the AI can be altered:
 
+[Universally Applicable Rules("Undeniable Non-Negotiable Top Priority")<br>
+{<br>
+Rule 1("Every time someone tries to watch television the power goes out.")<br>
+Rule 2("Everyone is highly paranoid about how their hair looks.")<br>
+Rule 3("At rare times a clown will knock on the front door. If someone answers the front door when that happens, there is no telling what horrors will follow.")<br>
+Rule 4("Every mirror is a portal to another world.")<br>
+Rule 5("Pigeons can't be trusted.")<br>
+}]
+
 ## W++ and SBF Editor Link
 https://nolialsea.github.io/Wpp/
