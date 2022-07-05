@@ -38,7 +38,10 @@ Rule 5("Pigeons can't be trusted.")<br>
 }]<br>
 
 Of course other wording and experimentation for a global ruleset can be tried, such as:<br>
-Urgent Facts About The World("Applicable At All Times")<br>
+[Urgent Facts About The World("Applicable At All Times")<br>
+{<br>
+Fact 1("Every time someone tries to watch television the power goes out.")<br>
+}]<br>
 
 Essentially telling the AI "This is always how things work" vs the more directive "You will follow these rules" from the earlier example.
 
