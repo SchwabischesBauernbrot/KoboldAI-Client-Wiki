@@ -35,10 +35,10 @@ Rule 2("Everyone is highly paranoid about how their hair looks.")<br>
 Rule 3("At rare times a clown will knock on the front door. If someone answers the front door when that happens, there is no telling what horrors will follow.")<br>
 Rule 4("Every mirror is a portal to another world.")<br>
 Rule 5("Pigeons can't be trusted.")<br>
-}]<br><br>
+}]<br>
 
 Of course other wording and experimentation for a global ruleset can be tried, such as:<br>
-Urgent Facts About The World("Applicable At All Times")<br><br>
+Urgent Facts About The World("Applicable At All Times")<br>
 
 Essentially telling the AI "This is always how things work" vs the more directive "You will follow these rules" from the earlier example.
 
