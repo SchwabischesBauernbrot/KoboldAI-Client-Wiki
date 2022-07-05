@@ -21,9 +21,12 @@ Age("37")<br>
 Language models influenced by SBF are Meta's XGLM and Fairseq-dense series models.
 
 Example:
-Let's say I'm using a Fairseq model and having the same issue as the W++ example above; I'd clearly stated who I was in relation to the family in my story - I'm a 37 year old husband named Edward but the model keeps assuming Edward is someone else and I'm a child. That can easily be fixed by acting the following SBF pseudocode in memory below:
+Let's say I'm using a Fairseq model and having the same issue as the W++ example above; I'd clearly stated who I was in relation to the family in my story - I'm a 37 year old husband named Edward but the model keeps assuming Edward is someone else and I'm a child. That can easily be fixed by pasting the following SBF pseudocode in memory below:
 
 [ I am: "Edward"; Husband of: "Charlotte"; Father of: "Clara", "Benny"; Gender: "Male"; Age: "37" ]
+
+## W++ madness
+As mentioned in the quick explainer, W++ appears to have a great influence on instructing an AI how to behave. The example below, when pasted in memory while using an Opt or a Neo model, can show how the entire generation behavior of the AI can be altered:
 
 ## W++ and SBF Editor Link
 https://nolialsea.github.io/Wpp/
