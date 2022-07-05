@@ -10,11 +10,11 @@ Example:
 While using Opt13B, Despite explcitly stating my character Edward was 37, married to Charlotte, and had two children - Benny and Clara, sometimes the AI would become confused and assume I was a child and Edward was another person. This was easily fixed entirely by placing the following W++ in memory:
 
 [I am("Edward")<br>
-{
-Husband of("Charlotte")
-Father of("Clara" + "Benny")
-Gender("Male")
-Age("37")
+{<br>
+Husband of("Charlotte")<br>
+Father of("Clara" + "Benny")<br>
+Gender("Male")<br>
+Age("37")<br>
 }]
 
 ## SBF (Square Bracket Format)
