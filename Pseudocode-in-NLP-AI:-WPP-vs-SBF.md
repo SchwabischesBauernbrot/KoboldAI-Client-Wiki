@@ -4,10 +4,10 @@ There are two different pseudocode techniques that have been found as best pract
 The only notable differences between W++ and SBF aside from which models they influence are their basic formatting, and W++ appears to have far more explicit control beyond storing information but can also serve as a means to push instructions.
 
 ## W++
-Language models influenced by W++ are EleutherAI's GPT-J, GPT-Neo, and Meta's Opt (Open Pre-trained Transformers) series models.
+Language models influenced by W++ are EleutherAI's GPT-J and GPT-Neo series. Meta's Opt series has also been speculated to be responsive to W++ pseudocode while observed under research conditions.
 
 Example: 
-While using Opt13B, Despite explcitly stating my character Edward was 37, married to Charlotte, and had two children - Benny and Clara, sometimes the AI would become confused and assume I was a child and Edward was another person. This was easily fixed entirely by placing the following W++ in memory:
+(While using GPT-J) Despite explcitly stating my character Edward was 37, married to Charlotte, and had two children - Benny and Clara, sometimes the AI would become confused and assume I was a child and Edward was another person. This was easily fixed entirely by placing the following W++ in memory:
 
 [I am("Edward")<br>
 {<br>
