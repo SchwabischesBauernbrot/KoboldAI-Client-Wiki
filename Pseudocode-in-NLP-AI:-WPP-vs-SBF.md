@@ -9,7 +9,7 @@ Language models influenced by W++ are EleutherAI's GPT-J, GPT-Neo, and Meta's Op
 Example: 
 While using Opt13B, Despite explcitly stating my character Edward was 37, married to Charlotte, and had two children - Benny and Clara, sometimes the AI would become confused and assume I was a child and Edward was another person. This was easily fixed entirely by placing the following W++ in memory:
 
-[I am("Edward")
+[I am("Edward")<br>
 {
 Husband of("Charlotte")
 Father of("Clara" + "Benny")
