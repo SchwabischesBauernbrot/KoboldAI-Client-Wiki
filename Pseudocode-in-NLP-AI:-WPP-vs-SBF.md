@@ -20,6 +20,9 @@ Age("37")<br>
 ## SBF (Square Bracket Format)
 Language models influenced by SBF are Meta's XGLM and Fairseq-dense series models.
 
+Example:
+Let's say I'm using a Fairseq model and having the same issue as the W++ example above; I'd clearly stated who I was in relation to the family in my story - I'm a 37 year old husband named Edward but the model keeps assuming Edward is someone else and I'm a child. That can easily be fixed by acting the following SBF pseudocode in memory below:
+
 [ I am: "Edward"; Husband of: "Charlotte"; Father of: "Clara", "Benny"; Gender: "Male"; Age: "37" ]
 
 ## W++ and SBF Editor Link
