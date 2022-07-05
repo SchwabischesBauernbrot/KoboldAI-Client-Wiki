@@ -20,5 +20,7 @@ Age("37")<br>
 ## SBF (Square Bracket Format)
 Language models influenced by SBF are Meta's XGLM and Fairseq-dense series models.
 
+[ I am: "Edward"; Husband of: "Charlotte"; Father of: "Clara", "Benny"; Gender: "Male"; Age: "37" ]
+
 ## W++ and SBF Editor Link
 https://nolialsea.github.io/Wpp/
