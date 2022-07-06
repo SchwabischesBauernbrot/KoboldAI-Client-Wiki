@@ -1,5 +1,3 @@
-# Memory
-
 Memory is inserted at the very top of what is sent to the AI, so it is the first thing that the AI sees every time you click Send. However, it's also the farthest away from the new text that is actively being generated, so it may have less obvious impact on current scene.
 
 - Think of Memory like the summary in the dust jacket of a book, or the back of a movie, or a Netflix menu.
