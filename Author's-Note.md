@@ -1,5 +1,3 @@
-# Author's Note
-
 Author's note is inserted only a few lines above the new text, so it has an larger impact on the newly generated prose and current scene.
 - The Author's Note is a bit like stage directions in a screenplay, but you're telling the AI how to write instead of giving instructions to actors and directors.
 - This is a good place to define the genre, tone, and maybe even some brief direction about the current scene.
