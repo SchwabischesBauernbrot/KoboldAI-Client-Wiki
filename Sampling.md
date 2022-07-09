@@ -148,7 +148,7 @@ Chasm has recommended the following sampling settings and sampler order for use 
 
 4. <a name="greedy-search-methods">[&#8593;](#_greedy-search-methods)</a> Or by setting top-k to 1, or by setting the tail free sampling value to 0.
 
-5. <a name="softmax">[&#8593;](#_softmax)</a> For all nonnegative integers ![](https://math.vercel.app/?color=gray&from=k) and for all vectors of logits ![](https://math.vercel.app/?color=gray&from=\vec{x}\in\mathbb{R}^k), the softmax function ![](https://math.vercel.app/?color=gray&from=\sigma:\mathbb{R}^k\to\left[0,1\right]^k) is defined as:
+5. <a name="softmax">[&#8593;](#_softmax)</a> For all positive integers ![](https://math.vercel.app/?color=gray&from=k) and for all vectors of logits ![](https://math.vercel.app/?color=gray&from=\vec{x}\in\mathbb{R}^k), the softmax function ![](https://math.vercel.app/?color=gray&from=\sigma:\mathbb{R}^k\to\left[0,1\right]^k) is defined as:
 
 <p align="center"><img src="https://math.vercel.app/?color=gray&from=\sigma(\vec{x})_i=\frac{e^{\vec{x}_i}}{\sum_{j=1}^{k}e^{\vec{x}_j}}"></p>
 
