@@ -22,7 +22,7 @@ The softmax function has some interesting properties, the most important of whic
 * The probabilities are always greater than or equal to 0 and less than or equal to 1.
 * The probabilities always add up to 1.
 * The softmax function preserves the ordering of the tokens&mdash;token A has a higher probability than token B if and only if token A has a higher logit than token B.
-* Adding the same number number to the logits do not change the probabilities. If we add 1 to every logit, the probabilities do not change, but they will change if the values we add to each logit are not the same. *Multiplying* the logits by the same nonzero real number *does* almost always change the probabilities.
+* Adding the same number to the logits do not change the probabilities. If we add 1 to every logit, the probabilities do not change, but they will change if the values we add to each logit are not the same. *Multiplying* the logits by the same nonzero real number *does* almost always change the probabilities.
 * In math libraries such as PyTorch, we can set logits to negative infinity. If a logit is negative infinity, the corresponding probability is always zero (since ![](https://math.vercel.app/?color=gray&from=\displaystyle\lim_{x\to-\infty}e^x=0)) as long as there is at least one logit that isn't negative infinity. Of course, there has to be at least one logit that isn't negative infinity, or else the behaviour is undefined.
 
 With the logit values converted into ***probabilities*** that add up to 1, we just pick one using these probabilities as a probability distribution. So the token that had the logit of 2 would have a 69.9% probability of being picked.
@@ -144,7 +144,7 @@ Chasm has recommended the following sampling settings and sampler order for use 
 
 2. <a name="logit-real">[&#8593;](#_logit-real)</a> We can also set logits to negative infinity even though negative infinity is not a real number. However, the raw logit values from the model are, in fact, always real. For the purposes of the softmax function's formula, we assume that ![](https://math.vercel.app/?color=gray&from=e^{-\infty}=0).
 
-3. <a name="logit-consistency">[&#8593;](#_logit-consistency)</a> The actual range of logit values that can be output by a model depend on the model itself and is not consistent across models.
+3. <a name="logit-consistency">[&#8593;](#_logit-consistency)</a> The actual range of logit values that can be output by a model depends on the model itself and is not consistent across models.
 
 4. <a name="greedy-search-methods">[&#8593;](#_greedy-search-methods)</a> Or by setting top-k to 1, or by setting the tail free sampling value to 0.
 
