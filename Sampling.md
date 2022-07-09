@@ -16,7 +16,7 @@ While there are many methods to pick tokens, the one that has received the most 
 Here's a layman's description of what the softmax function does, given example logits 2, -2.3, 1.12 and -3.9:
 
 1. We raise [e (a mathematical constant approximately equal to 2.718)](https://en.wikipedia.org/wiki/E_(mathematical_constant)) to the power of each logit. We get the values 7.389, 0.100, 3.065 and 0.020 since ![](https://math.vercel.app/?color=gray&from=e^2) is approximately 7.389 and ![](https://math.vercel.app/?color=gray&from=e^{-2.3}) is approximately 0.100 and so on.
-1. We normalize the values so that they add up to 1. In other words, we divide by their sum. So we get 0.699, 0.009, 0.290 and 0.002, because ![](https://math.vercel.app/?color=gray&from=\frac{7.389}{7.389+0.100+3.065+0.020}\approx0.699), etc.
+1. We normalize the values so that they add up to 1. In other words, we divide by their sum. So we get 0.699, 0.009, 0.290 and 0.002, because ![](https://math.vercel.app/?color=gray&from=\frac{7.389}{7.389%2B0.100%2B3.065%2B0.020}\approx0.699), etc.
 
 The softmax function has some interesting properties, the most important of which are listed below:
 * The probabilities are always greater than or equal to 0 and less than or equal to 1.
