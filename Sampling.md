@@ -59,7 +59,7 @@ Top-p sampling, also known as nucleus sampling, is one of the most widely used s
 
 The top-p value must be greater than or equal to 0 and less than or equal to 1. Top-p sampling can be disabled by setting it to 1.
 
-We first use the softmax function to convert the logits into probabilities. Then, we keep as many tokens as possible such that both of these rules are satisfied (by leaving the logits of the kept tokens unmodified and setting the logits of the other tokens to negative infinity):
+We first use the softmax function to convert the logits into probabilities. Then, we keep as many tokens as possible such that all three of these rules are satisfied (by leaving the logits of the kept tokens unmodified and setting the logits of the other tokens to negative infinity):
 
 * The token with the largest probability must always be kept. If there are multiple highest probability tokens, then an arbitrary one out of those must be kept.
 * If a token is not kept, then all of the tokens with probability lower than its probability must also not be kept.
