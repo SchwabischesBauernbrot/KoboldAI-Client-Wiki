@@ -21,7 +21,7 @@ Here's a layman's description of what the softmax function does, given example l
 The softmax function has some interesting properties, the most important of which are listed below:
 * The probabilities are always greater than or equal to 0 and less than or equal to 1.
 * The probabilities always add up to 1.
-* The softmax function preserves the ordering of the tokens -- token A has a higher probability than token B if and only if token A has a higher logit than token B.
+* The softmax function preserves the ordering of the tokens&mdash;token A has a higher probability than token B if and only if token A has a higher logit than token B.
 * Adding the same number number to the logits do not change the probabilities. If we add 1 to every logit, the probabilities do not change, but they will change if the values we add to each logit are not the same. *Multiplying* the logits by the same nonzero real number *does* almost always change the probabilities.
 * In math libraries such as PyTorch, we can set logits to negative infinity. If a logit is negative infinity, the corresponding probability is always zero (since ![](https://math.vercel.app/?color=gray&from=\displaystyle\lim_{x\to-\infty}e^x=0)) as long as there is at least one logit that isn't negative infinity. Of course, there has to be at least one logit that isn't negative infinity, or else the behaviour is undefined.
 
@@ -118,8 +118,8 @@ Typical sampling is based on observations of the differences between the informa
 The typical sampling value must be larger than or equal to zero and less than or equal to one. Setting this to 1 disables it.
 
 1. Use the softmax function on the logits to get the probabilities of the tokens.
-1. Determine the entropy which is the sum of the product of each logit with its own natural logarithm.<sup name="_typical-sampling-entropy">[[11]](#typical-sampling-entropy)</sup> The natural logarithm of negative infinity is zero for the purposes of this calculation.
-1. Sort the tokens in descending order of the absolute difference between the entropy and the natural logarithm of the token's probability.
+1. Determine the entropy which is the additive inverse of the sum of the product of each logit with its own natural logarithm.<sup name="_typical-sampling-entropy">[[11]](#typical-sampling-entropy)</sup> The natural logarithm of negative infinity is zero for the purposes of this calculation.
+1. Sort the tokens in ascending order of the absolute value of the sum of the entropy and the natural logarithm of the token's probability.<sup name="_typical-sampling-sorting">[[12]](#typical-sampling-sorting)</sup>
 1. Compute the [cumulative sums](https://en.wikipedia.org/wiki/Prefix_sum) of the tokens' probabilities when the tokens are sorted in this order.
 1. Keep the minimum possible number of tokens (setting the other tokens' logits to negative infinity) such that:
     * The first token when the tokens are sorted in this order is always kept.
@@ -162,6 +162,8 @@ Chasm has recommended the following sampling settings and sampler order for use 
 
 10. <a name="tail-free-sampling-centering">[&#8593;](#_tail-free-sampling-centering)</a> The author fails to mention this step anywhere outside of the code. Although, if you think about it, you'd have to do something like this anyway since there are two fewer second differences than there are tokens.
 
-11. <a name="typical-sampling-entropy">[&#8593;](#_typical-sampling-entropy)</a> For all nonnegative integers k and for all vectors of logits ![](https://math.vercel.app/?color=gray&from=\vec{x}\in\mathbb{R}^k), the entropy H is defined as:
+11. <a name="typical-sampling-entropy">[&#8593;](#_typical-sampling-entropy)</a> For all nonnegative integers k and for all vectors of probabilities ![](https://math.vercel.app/?color=gray&from=\vec{x}\in\mathbb{R}^k), the entropy H is defined as:
 
-<p align="center"><img src="https://math.vercel.app/?color=gray&from=H=\sum_{y\in%20x}y\ln%20y"></p>
+<p align="center"><img src="https://math.vercel.app/?color=gray&from=H=-\sum_{p\in\vec{x}}p\ln%20p"></p>
+
+12. <a name="typical-sampling-sorting">[&#8593;](#_typical-sampling-sorting)</a> Sort in ascending order of ![](https://math.vercel.app/?color=gray&from=\left|H%2B\ln%20p\right|) where p is the probability of each token.
