@@ -118,7 +118,7 @@ Typical sampling is based on observations of the differences between the informa
 The typical sampling value must be larger than or equal to zero and less than or equal to one. Setting this to 1 disables it.
 
 1. Use the softmax function on the logits to get the probabilities of the tokens.
-1. Determine the entropy which is the additive inverse of the sum of the product of each probability with its own natural logarithm.<sup name="_typical-sampling-entropy">[[11]](#typical-sampling-entropy)</sup> The natural logarithm of negative infinity is zero for the purposes of this calculation.
+1. Determine the entropy which is the additive inverse of the sum of the product of each probability with its own natural logarithm.<sup name="_typical-sampling-entropy">[[11]](#typical-sampling-entropy)</sup> The natural logarithm of zero is zero for the purposes of this calculation.
 1. Sort the tokens in ascending order of the absolute value of the sum of the entropy and the natural logarithm of the token's probability.<sup name="_typical-sampling-sorting">[[12]](#typical-sampling-sorting)</sup>
 1. Compute the [cumulative sums](https://en.wikipedia.org/wiki/Prefix_sum) of the tokens' probabilities when the tokens are sorted in this order.
 1. Keep the minimum possible number of tokens (setting the other tokens' logits to negative infinity) such that:
