@@ -100,7 +100,7 @@ The following is a description of Trenton Bricken's TensorFlow implementation of
 1. Take the absolute values of the second differences, so we have 0.05, 0.1 and 0.
 1. Divide these values by their sum. We have 0.333, 0.667 and 0.
 1. Compute the [cumulative sums](https://en.wikipedia.org/wiki/Prefix_sum) of these values (0.333, 1 and 1).
-1. Add a 0 and the beginning and a 1 at the end (0, 0.333, 1, 1, 1).<sup name="_tail-free-sampling-centering">[[10]](#tail-free-sampling-centering)</sup>
+1. Add a 0 at the beginning and a 1 at the end (0, 0.333, 1, 1, 1).<sup name="_tail-free-sampling-centering">[[10]](#tail-free-sampling-centering)</sup>
 1. Remove the tokens whose value as computed in the previous step is greater than the tail free sampling value (by setting their logits to negative infinity).
 
 Note that this algorithm always keeps at least one of the highest probability tokens.
