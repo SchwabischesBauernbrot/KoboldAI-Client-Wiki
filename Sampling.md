@@ -3,7 +3,7 @@
 When the AI generates text, the general procedure is as follows:
 
 1. Your story is converted into tokens and input to the model.
-1. The AI tries to predict what the next token in your story should be. However, the AI doesn't know how to explicitly pick a particular token. Instead, it ranks every possible token in its token vocabulary by assigning each one a "logit"<sup name="_logit">[[1]](#logit)</sup> value. Logits are real numbers<sup name="_logit-real">[[2]](#logit-real)</sup>, with very little consistent meaning other than the fact that tokens with higher logits are the ones the model is more confident in putting at the end of your story.<sup name="_logit-consistency">[[3]](#logit-consistency)</sup>
+1. The AI tries to predict what the next token in your story should be. However, the AI doesn't know how to explicitly pick a particular token. Instead, it ranks every possible token in its token vocabulary by assigning each one a "logit"<sup name="_logit">[[1]](#logit)</sup> value. Logits are real numbers,<sup name="_logit-real">[[2]](#logit-real)</sup> with very little consistent meaning other than the fact that tokens with higher logits are the ones the model is more confident in putting at the end of your story.<sup name="_logit-consistency">[[3]](#logit-consistency)</sup>
 1. KoboldAI's code somehow picks one token from the model's vocabulary based on the logits to put at the end of your story.
 1. The story with the one token added at the end is fed to the model again to generate another token. This process repeats until we have generated the number of tokens requested by the user (80 by default).
 
@@ -31,9 +31,9 @@ The problem with sampling is that it still usually gives every token a possibili
 
 # Sampling techniques
 
-## Temperature / Randomness<sup name="_temperature-name">[[6]](#temperature-name)</sup>
+## Temperature / Randomness
 
-One of the most basic methods is called temperature-controlled sampling. Temperature-controlled sampling was originally described in a 1985 paper, *[A Learning Algorithm for Boltzmann Machines](https://www.cs.toronto.edu/~fritz/absps/cogscibm.pdf)*, as a technique for controlling the randomness of an old type of neural network, but has proven itself to be an important technique for controlling randomness of modern text generation models.
+One of the most basic methods is called temperature-controlled sampling.<sup name="_temperature-name">[[6]](#temperature-name)</sup> Temperature-controlled sampling was originally described in a 1985 paper, *[A Learning Algorithm for Boltzmann Machines](https://www.cs.toronto.edu/~fritz/absps/cogscibm.pdf)*, as a technique for controlling the randomness of an old type of neural network, but has proven itself to be an important technique for controlling randomness of modern text generation models.
 
 Temperature-controlled sampling just involves dividing the logits by the temperature value. So if the temperature value is 0.5, then we divide all the logits by 0.5 prior to sampling.
 
@@ -53,9 +53,9 @@ In practice, top-k sampling has proven to be worse at its job than most of the o
 
 Because of how top-k sampling works, it's highly recommended to have it as the first sampler in KoboldAI (other than temperature, it is okay to have that before top-k). This is because most of the other samplers also set some logits to negative infinity while leaving the others intact, but in a more intelligent way. If top-k comes after a more intelligent sampler and removes at least one token, then it just basically nullified the effects of the previous samplers.
 
-## Top-p sampling / Nucleus sampling<sup name="_nucleus-sampling-name">[[7]](#nucleus-sampling-name)</sup>
+## Top-p sampling / Nucleus sampling
 
-Top-p sampling, also known as nucleus sampling, is one of the most widely used sampling methods in text generation. It was first described by the paper *[The Curious Case of Neural Text Degeneration](https://arxiv.org/pdf/1904.09751.pdf)*.
+Top-p sampling, also known as nucleus sampling,<sup name="_nucleus-sampling-name">[[7]](#nucleus-sampling-name)</sup> is one of the most widely used sampling methods in text generation. It was first described by the paper *[The Curious Case of Neural Text Degeneration](https://arxiv.org/pdf/1904.09751.pdf)*.
 
 The top-p value must be greater than or equal to 0 and less than or equal to 1. Top-p sampling can be disabled by setting it to 1.
 
