@@ -140,7 +140,7 @@ Chasm has recommended the following sampling settings and sampler order for use 
 
 The default sampler ordering in KoboldAI is top-k, top-a, top-p, TFS, typical, temperature.
 
-# Repetition Penalty
+# Repetition penalty
 
 Repetition penalty is a technique used to reduce repetition in generated text. It is an incredibly important setting that should almost always be enabled, especially for smaller models. It was introduced by the authors of the CTRL model in section 4.1 of *[CTRL: A Conditional Transformer Language Model for Controllable Generation](https://arxiv.org/abs/1909.05858)*.
 
