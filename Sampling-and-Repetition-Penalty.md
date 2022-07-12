@@ -138,6 +138,37 @@ Chasm has recommended the following sampling settings and sampler order for use 
 
 > Or what I do now is *temp0.8>typical0.19>tfs0.97>top-p0.6* which works wonders for me across the board on Fairseq13B, even Opt. The top-p being optional, top-k and top-a off for now. All repetition penalties left at default.
 
+The default sampler ordering in KoboldAI is top-k, top-a, top-p, TFS, typical, temperature.
+
+# Repetition Penalty
+
+Repetition penalty is a technique used to reduce repetition in generated text. It is an incredibly important setting that should almost always be enabled, especially for smaller models. It was introduced by the authors of the CTRL model in section 4.1 of *[CTRL: A Conditional Transformer Language Model for Controllable Generation](https://arxiv.org/abs/1909.05858)*.
+
+Repetition penalty is a real number greater than or equal to 1. Setting repetition penalty to 1 disables it.
+
+When repetition penalty is enabled, the following algorithm is applied to each logit:<sup name="_repetition_penalty_multiplication">[[13]](#repetition_penalty_multiplication)</sup>
+
+* If the token corresponding to the logit has not appeared in the story,<sup name="_repetition-penalty-input">[[14]](#repetition-penalty-input)</sup> we leave the logit as is.
+* If the token corresponding to the logit has appeared in the story and the logit is greater than zero, the logit is divided by the repetition penalty value.
+* If the token corresponding to the logit has appeared in the story and the logit is less than or equal to zero, the logit is multiplied by the repetition penalty value.
+
+This basically makes it less likely for tokens that have already appeared in the story to appear again, favouring tokens that have not yet appeared.
+
+Tokens that have appeared more than once in the story are *not* penalized more than tokens that have appeared only once.
+
+We have found repetition penalty to be essential for creative story generation. However, when you enable repetition penalty, the good range of values varies with model size:
+
+* 2.7B and smaller models often need repetition penalty in the 1.75&ndash;2 range to be usable.
+* ~6B models need repetition penalty at 1.1&ndash;1.2.
+* 13B models have a similar range, at 1.05&ndash;1.15.
+* 20B models and larger need a repetition penalty value of at most around 1.03.
+
+NovelAI users may be confused at the range of repetition penalty values used in KoboldAI. This is because NovelAI internally scales the repetition penalty value to provide a consistent range for all models. KoboldAI does not in order to allow users more control and to maintain consistency with other platforms.
+
+Repetition penalty is always applied before all of KoboldAI's samplers. This behaviour cannot be changed at this time.
+
+KoboldAI also inherited repetition penalty slope and repetition penalty range from Clover Edition. If *both* of these settings are not equal to 0, this makes it so that the repetition penalty value is different depending on where the token appeared in the story relative to the end of the story. Refer to [this Desmos widget](https://www.desmos.com/calculator/iui9ldyhwg), which shows a graph with the number of tokens relative to the end of the story (0 means the last token, 1 means the second-last token, etc.) on the x-axis and the repetition penalty on the y-axis. Tokens with a position further from the end of the story than the repetition penalty range are not considered. If a token appears more than once in the story, the token's effective repetition penalty value is calculated based on the last occurrence of that token (the occurrence closest to the end of the story).
+
 # Notes and rambling
 
 1. <a name="logit">[&#8593;](#_logit)</a> If you Google the word "logit", chances are you'll see something about a "logit function". Logits in the context of machine learning are numbers. The logit function is something a little different. Logits in machine learning get their name from the fact that the logit function is the inverse of the logistic function. So when we apply the softmax function (a generalization of the logistic function) to the logits, it's like we're reversing the logit function and recovering the original values.
@@ -167,3 +198,7 @@ Chasm has recommended the following sampling settings and sampler order for use 
 <p align="center"><img src="https://math.vercel.app/?color=gray&from=H=-\sum_{p\in\vec{x}}p\ln%20p"></p>
 
 12. <a name="typical-sampling-sorting">[&#8593;](#_typical-sampling-sorting)</a> Sort in ascending order of ![](https://math.vercel.app/?color=gray&from=\left|H%2B\ln%20p\right|) where p is the probability of the token.
+
+13. <a name="repetition_penalty_multiplication">[&#8593;](#_repetition_penalty_multiplication)</a> The original algorithm from the paper divided logits for tokens that have appeared in the story by the repetition penalty value regardless of whether the logit is positive or negative. That would result in the negative logit tokens increasing in probability, which is counter to the point of repetition penalty, hence this modified algorithm that we and others use.
+
+14. <a name="repetition-penalty-input">[&#8593;](#_repetition-penalty-input)</a> By "appeared in the story", we mean tokens that have appeared in the input to the model. So if KoboldAI is in the middle of generating 80 tokens and the model has generated 40 of them so far, those 40 tokens are included in the "story".
