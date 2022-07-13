@@ -1,6 +1,6 @@
 In order for a transformer model to understand your story, it first has to convert it to a format that its hidden layers understand.
 
-After your story is converted into tokens and sent to the model, the tokens are converted to another internal format for the model's use via a process known as "embedding". The end product is a two-dimensional array of "[word embeddings](https://en.wikipedia.org/wiki/Word_embedding)", often just called "embeddings".
+After your story is converted into tokens to be sent to the model, the tokens are converted to another internal format for the model's use via a process known as "embedding". The end product is a two-dimensional array of "[word embeddings](https://en.wikipedia.org/wiki/Word_embedding)", often just called "embeddings".
 
 Every transformer model comes with an embedding matrix, which is a two-dimensional array. There is one row in this two-dimensional array for every possible token in the model's token vocabulary. Embedding just involves taking the rows from this two-dimensional array that correspond to the tokens in your story and concatenating them together. The result is the embeddings that get sent to the rest of the model.
 
