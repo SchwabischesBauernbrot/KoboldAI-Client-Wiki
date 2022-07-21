@@ -4,7 +4,7 @@ When the AI generates text, the general procedure is as follows:
 
 1. Your story is converted into tokens and input to the model.
 1. The AI tries to predict what the next token in your story should be. However, the AI doesn't know how to explicitly pick a particular token. Instead, it ranks every possible token in its token vocabulary by assigning each one a "logit"<sup name="_logit">[[1]](#logit)</sup> value. Logits are real numbers,<sup name="_logit-real">[[2]](#logit-real)</sup> with very little consistent meaning other than the fact that tokens with higher logits are the ones the model is more confident in putting at the end of your story.<sup name="_logit-consistency">[[3]](#logit-consistency)</sup>
-1. KoboldAI's code somehow picks one token from the model's vocabulary based on the logits to put at the end of your story.
+1. KoboldAI's code somehow uses the logits to help pick one token from the model's vocabulary to put at the end of your story.
 1. The story with the one token added at the end is fed to the model again to generate another token. This process repeats until we have generated the number of tokens requested by the user (80 by default).
 
 One of the central problems in AI story generation is related to that step where we have to pick one token based on the logits&mdash;how to pick the token so that the story is neither incoherent nor robotic.
