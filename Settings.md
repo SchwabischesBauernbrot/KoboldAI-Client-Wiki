@@ -1,4 +1,4 @@
-# A dilemma
+# Introduction
 
 When the AI generates text, the general procedure is as follows:
 
