@@ -1,3 +1,5 @@
+## Introduction
+
 There are quite a bit of differences between something like AI Dungeon and a program like KoboldAI. 
 
 ## Service vs Program
