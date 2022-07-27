@@ -1,5 +1,6 @@
 ## Introduction
-Soft prompts, also known as "modules", are two-dimensional arrays that can be concatenated at the beginning of the embeddings directly after the embedding step (row-wise, so we are adding extra rows to the top of the embeddings, not extra columns to the left of the embeddings). This allows us to inject extra information to the model. The idea of soft prompts was introduced by the paper *[The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/pdf/2104.08691v2.pdf)*.
+Soft prompts, also known as "modules", are small (usually less than 10 megabytes) binary files that can adjust the behaviour and textual biases of your model. Soft prompts are created by  gradient descent-based optimization algorithms&mdash;by training on training data, much like the way models are trained and finetuned. The idea of soft prompts was introduced by the paper *[The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/pdf/2104.08691v2.pdf)*.
+
 ## How does it work?
 In order for a transformer model to understand your story, it first has to convert it to a format that its hidden layers understand.
 
@@ -14,6 +15,9 @@ Consider this toy example, wherein your story, " a long time ago in a galaxy far
 3. We concatenate the rows that correspond to the tokens together in the same order that they were in the story. Then this gets sent to the rest of the model.
 
 ![](https://user-images.githubusercontent.com/89268918/178172074-9a16e323-6455-46ab-a763-73ead4d0b717.png)
+
+Soft prompts are two-dimensional arrays that can be concatenated at the beginning of the embeddings directly after the embedding step (row-wise, so we are adding extra rows to the top of the embeddings, not extra columns to the left of the embeddings). This allows us to inject extra information to the model.
+
 ## Soft Prompts vs Memory
 What makes this different from memory? Unlike memory, where the stuff we add at the beginning of your story (and thus at the beginning of the embeddings) consists of tokens that the model has seen before, the stuff a soft prompt adds to the beginning of the embeddings need not actually be from the model's embedding matrix&mdash;it can be anything we want!
 
