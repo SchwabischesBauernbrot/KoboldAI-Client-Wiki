@@ -1,7 +1,11 @@
 ## Introduction
 Settings presets ported from NovelAI and adapted for KoboldAI together with the original ones.
 
+The names and descriptions are taken from NovelAI. For the original presets, the names, models and descriptions were created by their authors.
+
 ## 6B Models
+The settings presets created in NovelAI for the Sigurd model.
+
 | Name | Description |
 | --- | --- |
 | Storywriter | Optimized settings for relevant output. |
@@ -12,6 +16,7 @@ Settings presets ported from NovelAI and adapted for KoboldAI together with the 
 | Best Guess | A subtle change with alternative context settings. |
 | Pleasing Results | Expectable output with alternative context settings. |
 ## 13B Models
+Settings presets created in NovelAI for the Euterpe model.
 | Name | Description |
 | --- | --- |
 | Genesis | Stable and logical, but with scattered creativity. |
@@ -25,6 +30,7 @@ Settings presets ported from NovelAI and adapted for KoboldAI together with the 
 | Morpho | Let the AI generate without constraints. |
 | Pro Writer | Optimal setting for readability, based on AI-powered mass statistical analysis of Euterpe output. |
 ## Original Presets
+Settings presets created by KoboldAI users.
 | Name | Author | Model | Description |
 | --- | --- | --- | --- |
 | Godlike | Chasm | OPT and FSD 13B | Make AI give a descriptive and sensual output. |
