@@ -14,7 +14,7 @@ Consider this toy example, wherein your story, " a long time ago in a galaxy far
 3. We concatenate the rows that correspond to the tokens together in the same order that they were in the story. Then this gets sent to the rest of the model.
 
 ![](https://user-images.githubusercontent.com/89268918/178172074-9a16e323-6455-46ab-a763-73ead4d0b717.png)
-## Soft Promts vs Memory
+## Soft Prompts vs Memory
 What makes this different from memory? Unlike memory, where the stuff we add at the beginning of your story (and thus at the beginning of the embeddings) consists of tokens that the model has seen before, the stuff a soft prompt adds to the beginning of the embeddings need not actually be from the model's embedding matrix&mdash;it can be anything we want!
 
 Whereas normal memory only allows us to add rows to the embeddings that are from the model's embedding matrix, a soft prompt can add completely novel, never-before-seen rows. The embedding matrix usually has at least 1000 columns, so by using a soft prompt we get higher information density than with normal memory. You can put an entire dataset's worth of information in a few dozen tokens' worth of memory.
