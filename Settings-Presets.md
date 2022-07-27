@@ -1,7 +1,7 @@
 ## Introduction
 Settings presets ported from NovelAI and adapted for KoboldAI together with the original ones.
 
-The names and descriptions are taken from NovelAI. For the original presets, the names, models and descriptions were created by their authors.
+The names and descriptions are taken from NovelAI. For the original presets, the names and descriptions were created by their authors.
 
 ## 6B Models
 The settings presets created in NovelAI for the Sigurd model.
