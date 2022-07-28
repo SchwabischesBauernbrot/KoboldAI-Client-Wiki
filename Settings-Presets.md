@@ -33,7 +33,7 @@ Settings presets created in NovelAI for the Euterpe model.
 Settings presets created by KoboldAI users.
 | Name | Author | Model | Description |
 | --- | --- | --- | --- |
-| Godlike | Chasm | OPT and FSD 13B | Make AI give a descriptive and sensual output. |
+| Godlike | Chasm | OPT and FSD 13B | Makes AI give a descriptive and sensual output. |
 | Light Breeze | xen0 | Skein 6B | Staying on track, not complex stories, directing the plot yourself. |
 | Mayday | xen0 | Adventure 6B | Wacky plot, creativity from AI, crazy stories you want AI to weird out. |
 | Good Winds | xen0 | Skein 6B | Let AI direct the plot, but still stay logical. |
