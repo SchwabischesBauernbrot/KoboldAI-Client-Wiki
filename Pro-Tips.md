@@ -1,6 +1,6 @@
-## Introduction
+# Introduction
 A collection of pro tips that can help to create a more coherent, well-written stories and adventures.
-## Prompt
+# Prompt
 
 | Name | Description |
 | --- | --- |
@@ -17,10 +17,13 @@ There was nothing so very remarkable in that; nor did Alice think it so very muc
 <br>
 </details>
 
-## Pseudocode
+# Pseudocode
+## Introduction
 There are two different pseudocode techniques that have been found as best practice for storing dense information in memory such as relational status between characters, how the world operates, and any other information desired to be consistent/persistent. These are two formats, one dubbed W++ which works best with language models that have an understanding of following explicit instructions and basic code, and SBF or Square Bracket Format which works best with language models more focused only on natural language.
 
 The only notable differences between W++ and SBF aside from which models they influence are their basic formatting, and W++ appears to have far more explicit control beyond storing information but can also serve as a means to push instructions.
+
+## W++
 
 Language models influenced by W++ are EleutherAI's GPT-J and GPT-Neo series. Meta's Opt series has also been speculated to be responsive to W++ pseudocode while observed under research conditions.
 
@@ -35,16 +38,6 @@ Father of("Clara" + "Benny")<br>
 Gender("Male")<br>
 Age("37")<br>
 }]
-</details>
-
-Language models influenced by SBF are Meta's XGLM and Fairseq-dense series models.
-
-<details>
-  <summary>Entry example</summary>
-<br>  
-Let's say I'm using a Fairseq model and having the same issue as the W++ example above; I'd clearly stated who I was in relation to the family in my story - I'm a 37 year old husband named Edward but the model keeps assuming Edward is someone else and I'm a child. That can easily be fixed by pasting the following SBF pseudocode in memory below:<br>
-<br>
-[ I am: "Edward"; Husband of: "Charlotte"; Father of: "Clara", "Benny"; Gender: "Male"; Age: "37" ]<br>
 </details>
 
 W++ appears to have a great influence on instructing an AI how to behave. 
@@ -64,13 +57,31 @@ Rule 5("Pigeons can't be trusted.")<br>
 }]<br>
 </details>
 
-Of course other wording and experimentation for a global ruleset can be tried, such as:<br><br>
+
+## SBF
+Language models influenced by SBF are Meta's XGLM and Fairseq-dense series models.
+
+<details>
+  <summary>Entry example</summary>
+<br>  
+Let's say I'm using a Fairseq model and having the same issue as the W++ example above; I'd clearly stated who I was in relation to the family in my story - I'm a 37 year old husband named Edward but the model keeps assuming Edward is someone else and I'm a child. That can easily be fixed by pasting the following SBF pseudocode in memory below:<br>
+<br>
+[ I am: "Edward"; Husband of: "Charlotte"; Father of: "Clara", "Benny"; Gender: "Male"; Age: "37" ]<br>
+</details>
+
+Of course other wording and experimentation for a global ruleset can be tried, such as:<br>
+<details>
+  <summary>Entry example</summary>
+<br>  
 [Urgent Facts About The World("Applicable At All Times")<br>
 {<br>
 Fact 1("Every time someone tries to watch television the power goes out.")<br>
 }]<br>
+</details>
 
 Essentially telling the AI "This is always how things work" vs the more directive "You will follow these rules" from the earlier example.
+
+***
 
 | Name | Description |
 | --- | --- |
@@ -79,8 +90,8 @@ Essentially telling the AI "This is always how things work" vs the more directiv
 <details>
   <summary>Illustrative example</summary>
 <br>
-  W++:
 
+  W++: <br>
  [location("hospital")<br>
 {<br>
 DESCRIPTION("large facility" + "underground base")<br>
@@ -88,7 +99,8 @@ APPEARANCE("white walls" + "red bricks" + "people being treated for injuries")<b
 AREAS("maternity" + "triage" + "emergency room" + "canteen" + "research lab")<br>
 SUMMARY("The hospital is treating many injured people after the alien attack.")<br>
 }]
-  
+<br>
+
   SBF: 
 
 [ Character: Ronald Mc Donald; age: 38; height: 1.8 m; weight: 90 kg; eye color: green; hair color: brown; hair style: short hair; skin color: fair; clothing: uniform; weapon: no weapon; title: none; other characteristics: none; description: Ronald is a clown-like mascot with red and yellow clothing, wearing a hat with a yellow star and a yellow smiley face on it. He is also carrying a golden bag and a large golden hamburger. ]
@@ -101,17 +113,6 @@ Individual sentences in brackets for Author's Note:
 [ Wording: Arousing.]<br>
 [ Rating: R.]<br>
   
-</details>
-
-| Name | Description |
-| --- | --- |
-| Set character in memory | Set the main characters in memory in a concise format to save tokens and aid the retention of important facts. |
-
-<details>
-  <summary>Illustrative example</summary>
-<br>  
-[ I am: "Edward"; Husband of: "Charlotte"; Father of: "Clara", "Benny"; Gender: "Male"; Age: "37" ]
-<br>  
 </details>
 
 | Name | Description |
