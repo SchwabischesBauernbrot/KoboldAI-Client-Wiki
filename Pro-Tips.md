@@ -122,7 +122,7 @@ Individual sentences in brackets for Author's Note:
 <details>
   <summary>Illustrative example</summary>
 <br>  
-timid, self-conscious, polite, friendly, arrogant, oblivious, dumb, dry, cynical, apathetic, wry, clever, witty, addicted, belligerent, busy, brave, curious, hardy, helpful, jolly (Pokemon natures), loyal, logical, manipulative, mellow, moody, mysterious, philosophical, playful, polite, proud, rude, sensitive, servile, shy, stern, smug, tenacious, upbeat, evil, violent, cruel, sadistic, vulgar (puts emphasis on inappropriate NSFW jokes and behaviours), wild (is used for characters that behave like animals in the wild or tribals).<br>
+timid, self-conscious, polite, friendly, arrogant, oblivious, dumb, dry, cynical, apathetic, wry, clever, witty, addicted, belligerent, busy, brave, curious, hardy, helpful, jolly (Pokemon natures), loyal, logical, manipulative, mellow, moody, mysterious, philosophical, playful, polite, proud, rude, sensitive, servile, shy, stern, smug, tenacious, upbeat, evil, violent, cruel, sadistic, vulgar (puts emphasis on inappropriate NSFW jokes and behaviours), wild (is used for characters that behave like animals in the wild or tribals)<br>
 <br>
 [ Character: "Jadzia Dax"; HAIR: "dark", "long", "ponytail"; DESCRIPTION: "female", "tall", "woman"; APPEARANCE: "soft skin", "blue eyes", "athletic", "large tits", "dark nipples", "perfect ass"; MIND: "logical", "brave", "loyal", "tenacious", "playful", "polite"; SUMMARY: "Starfleet Officer", "beautiful", "Lietenant Commander" ]
 <br>
@@ -152,45 +152,45 @@ SUMMARY("The human colony of Trandor has recently suffered an alien attack.")<br
 <details>
   <summary>Illustrative example</summary>
 <br>  
-SEE: (To describe how a character perceives the world)<br>
+SEE: ( To describe how a character perceives the world )<br>
 LIMIT/LACK<br>
-COND/STATE/STATUS: (Status condition like PSN / PRLZ from Pokemon)<br>
+COND/STATE/STATUS: ( Status condition like PSN / PRLZ from Pokemon )<br>
 DIET<br>
-LOOT: (What INV items can be dropped when a creature is defeated)<br>
+LOOT: ( What INV items can be dropped when a creature is defeated )<br>
 DETA/DETAIL<br>
-ADJ/ADJECTIVE/ADJECT: (Adjective qualities that are a core part of the entity)<br>
-MODIF/MOFIDIER: (Like the above, but how it's different from the usual or expected)<br>
-GRAM/GRAMMAR: (Tested to tokenize exclusively for word GRAMMAR, useful for speech patterns)<br>
-VOCAB/SPEECH: (Potentially better than above, can get characters to speak Japanese or French)<br>
+ADJ/ADJECTIVE/ADJECT: ( Adjective qualities that are a core part of the entity )<br>
+MODIF/MOFIDIER: ( Like the above, but how it's different from the usual or expected )<br>
+GRAM/GRAMMAR: ( Tested to tokenize exclusively for word GRAMMAR, useful for speech patterns )<br>
+VOCAB/SPEECH: ( Potentially better than above, can get characters to speak Japanese or French )<br>
 INV<br>
 EQUIP<br>
 LIKE<br>
 HATE<br>
-RELATION(S): (Both long forms preferred due to tokens)<br>
-ALLIES/FRIENDS: (ALLIES preferred due to two tokens)<br>
-BOND/BONDS: (Similar to the above, BOND preferred due to tokens)<br>
-ENEMIES: (Merely decent tokens, ENEMY has the same issue)<br>
+RELATION(S): ( Both long forms preferred due to tokens )<br>
+ALLIES/FRIENDS: ( ALLIES preferred due to two tokens )<br>
+BOND/BONDS: ( Similar to the above, BOND preferred due to tokens )<br>
+ENEMIES: ( Merely decent tokens, ENEMY has the same issue )<br>
 POWERS/POWER<br>
 THEME<br>
-ORIGIN: (For series/titles)<br>
+ORIGIN: ( For series/titles )<br>
 ATMOSPHERE/ATMOS<br>
 TONE<br>
 MOOD<br>
 CLIMATE/CLIM<br>
 GEOGRAPHY/GEO/GEOGR<br>
-ECON/ECONOMY: (For locations, economical circumstances)<br>
-FEATURES: (For locations, all variants of FEAT tokenize the same, likely has multiple uses)<br>
-EXIT: (For rooms)<br>
-CITIZ/CITIZENS: (Special case, short form always preferred, describes racial diversity of locales)<br>
-ETHN/ETHNICITY: (Similar to above, better for human variation)<br>
-FOLK: (Like CITIZENS but more emphasis on fantasy)<br>
-PASSION: (Character motivation)<br>
-ALIGNMENT/ALIGN: (Supports imaginative alignments like Lawful Stupid)<br>
-EFFEC/EFFECT(S): (For objects and entities, used to add magic or science effects)<br>
-BIOME: (Traits that reinforce the biome such as flora go in desc or summary)<br>
-CREATE: (What the entity is capable of producing)<br>
+ECON/ECONOMY: ( For locations, economical circumstances )<br>
+FEATURES: ( For locations, all variants of FEAT tokenize the same, likely has multiple uses )<br>
+EXIT: ( For rooms )<br>
+CITIZ/CITIZENS: ( Special case, short form always preferred, describes racial diversity of locales )<br>
+ETHN/ETHNICITY: ( Similar to above, better for human variation )<br>
+FOLK: ( Like CITIZENS but more emphasis on fantasy )<br>
+PASSION: ( Character motivation )<br>
+ALIGNMENT/ALIGN: ( Supports imaginative alignments like Lawful Stupid )<br>
+EFFEC/EFFECT(S): ( For objects and entities, used to add magic or science effects )<br>
+BIOME: ( Traits that reinforce the biome such as flora go in desc or summary )<br>
+CREATE: ( What the entity is capable of producing )<br>
 FACTS<br>
-BANNED/BANN: (Forbidden behavior)<br>
+BANNED/BANN: ( Forbidden behavior )<br>
 <br>
 </details>
 
@@ -201,19 +201,19 @@ BANNED/BANN: (Forbidden behavior)<br>
 <details>
   <summary>Illustrative example</summary>
 <br>  
-DESCRIPTION:  ( IE female/male, tall/short, big/little, human/elf, animal/monster)<br>  
-APPEARANCE:  (Things like hair/eye/skin colour or claws, fur, etc)<br>  
-MIND:                 (Psychological things like kind, cruel, aggressive, helpful, shy, moody, polite etc)<br>  
-WEAR:                (Clothing or apparel coats, socks, shoes, backpack, hat)<br>  
-STATUS:             (Where is the character and what predicament are they in: Trapped in a dungeon)<br>  
-CONDITION:    (The state of the character/monster/animal such as very strong but tired, a few cuts and bruises,  arrow in the knee, decaying, worse for wear etc )<br>  
-SPEECH:             (None, cockney accent, Japanese, British accent, vulgar, squeak, roar, bark etc)<br>  
-POWER:             (Special traits or powers ie ability to fly)<br>  
-GRAB:                (To define what is used to grab ie mouth/bite, claws, tentacles)<br>  
-MOVE:               (Movement such as walk, run, crawl, slither, swim, scuttle, creep)<br>  
-LIMIT:                (What is lacking such as sight/blind, hands for animals, speech etc)<br>  
-INVENTORY:    (Items on the character, gun, bow, sword, knife, whip, bottle of absolute vodka etc)<br>  
-SUMMARY:     (Here you can describe the character in a sentence ie Cov is a nerd who spends far too much time on KoboldAI)<br>  
+DESCRIPTION:  ( IE female/male, tall/short, big/little, human/elf, animal/monster )<br>  
+APPEARANCE:  ( Things like hair/eye/skin colour or claws, fur, etc. )<br>  
+MIND:                 ( Psychological things like kind, cruel, aggressive, helpful, shy, moody, polite, etc. )<br>  
+WEAR:                ( Clothing or apparel coats, socks, shoes, backpack, hat )<br>  
+STATUS:             ( Where is the character and what predicament are they in: Trapped in a dungeon )<br>  
+CONDITION:    ( The state of the character/monster/animal such as very strong but tired, a few cuts and bruises, arrow in the knee, decaying, worse for wear, etc. )<br>  
+SPEECH:             ( None, cockney accent, Japanese, British accent, vulgar, squeak, roar, bark, etc. )<br>  
+POWER:             ( Special traits or powers ie ability to fly )<br>  
+GRAB:                ( To define what is used to grab ie mouth/bite, claws, tentacles )<br>  
+MOVE:               ( Movement such as walk, run, crawl, slither, swim, scuttle, creep )<br>  
+LIMIT:                ( What is lacking such as sight/blind, hands for animals, speech. etc. )<br>  
+INVENTORY:    ( Items on the character, gun, bow, sword, knife, whip, bottle of absolute vodka, etc. )<br>  
+SUMMARY:     ( Here you can describe the character in a sentence ie Cov is a nerd who spends far too much time on KoboldAI )<br>  
 <br>
 </details>
 
