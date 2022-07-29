@@ -1,6 +1,6 @@
 # Introduction
 A collection of pro tips that can help to create a more coherent, well-written stories and adventures.
-# Prompt
+# Prompt Tips
 
 | Name | Description |
 | --- | --- |
@@ -81,7 +81,7 @@ Fact 1("Every time someone tries to watch television the power goes out.")<br>
 
 Essentially telling the AI "This is always how things work" vs the more directive "You will follow these rules" from the earlier example.
 
-***
+# Pseudocode Tips
 
 | Name | Description |
 | --- | --- |
