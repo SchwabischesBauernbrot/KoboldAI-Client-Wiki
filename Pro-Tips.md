@@ -219,7 +219,7 @@ SUMMARY:     ( Here you can describe the character in a sentence ie Cov is a ner
 
 | Name | Description |
 | --- | --- |
-| Commands | Description: Phrases to type that work well on the AI. |
+| Commands | Phrases to type that work well on the AI. |
 
 <details>
   <summary>Illustrative example</summary>
