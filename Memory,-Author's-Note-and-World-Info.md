@@ -1,5 +1,5 @@
 ## Introduction
-The AI is capable of generating some pretty impressive and fun stories, but that isn't going to happen just by upgrading to the more powerful model or fiddling endlessly with the sliders and settings (in fact, changing too much in advanced settings may actually hurt your experience if you don't understand and implement the basics first). If you want to get high quality output, you need to give the AI something to work with, and that means using the Memory, Author's Note, and World Info features. These features are inserted into the text "behind the scenes" for the AI to work with every time you click Send, so they have a massive and ongoing impact on your story.
+The AI is capable of generating some pretty impressive and fun stories, but that isn't going to happen just by upgrading to the more powerful model or fiddling endlessly with the sliders and settings (in fact, changing too much in advanced settings may actually hurt your experience if you don't understand and implement the basics first). If you want to get high quality output, you need to give the AI something to work with, and that means using the Memory, Author's Note, and World Info features. These features are inserted into the text "behind the scenes" for the AI to work with every time you click Submit, so they have a massive and ongoing impact on your story.
 ## Memory
 Memory is inserted at the very top of what is sent to the AI, so it is the first thing that the AI sees every time you click Send. However, it's also the farthest away from the new text that is actively being generated, so it may have less obvious impact on current scene.
 
@@ -53,4 +53,4 @@ World Info is where you can flesh out the details of your wider world. The engin
 
     [The landscape surrounding the colony is an dark and windswept wasteland far from the closest star. The planet's thin but humid atmosphere leaves thick fog hugging the ground and blowing around in the wind. The terrain is mostly jagged boulders and cliffs that conceal hidden entrances to caves and tunnels.]
 	
-	<sub><sup>(used with permission from https://www.reddit.com/r/NovelAi/comments/o3seew/how_to_use_memory_authors_note_and_World Info/)</sub></sup>
+	<sub><sup>(used with permission from https://www.reddit.com/r/NovelAi/comments/o3seew/how_to_use_memory_authors_note_and_lorebook/)</sub></sup>
