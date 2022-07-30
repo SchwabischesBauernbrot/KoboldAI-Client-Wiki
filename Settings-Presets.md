@@ -3,7 +3,7 @@ Settings presets ported from NovelAI and adapted for KoboldAI together with the 
 
 The names and descriptions are taken from NovelAI. For the original presets, the names and descriptions were created by their authors.
 
-## 6B Models
+## [6B Models](https://drive.google.com/drive/folders/1mXG126USSEfJmd444QgGMgGQScABAPou)
 The settings presets created in NovelAI for the Sigurd model.
 
 | Name | Description |
@@ -15,7 +15,7 @@ The settings presets created in NovelAI for the Sigurd model.
 | Emperor Moth | Medium randomness with a decent bit of creative writing. |
 | Best Guess | A subtle change with alternative context settings. |
 | Pleasing Results | Expectable output with alternative context settings. |
-## 13B Models
+## [13B Models](https://drive.google.com/drive/folders/1kTKfVn0nvYdv7IsUOQbpGWc_1SMP15wn)
 Settings presets created in NovelAI for the Euterpe model.
 | Name | Description |
 | --- | --- |
@@ -29,7 +29,7 @@ Settings presets created in NovelAI for the Euterpe model.
 | Low Rider | Reliable, aimed at story development. |
 | Morpho | Let the AI generate without constraints. |
 | Pro Writer | Optimal setting for readability, based on AI-powered mass statistical analysis of Euterpe output. |
-## Original Presets
+## [Original Presets](https://drive.google.com/drive/folders/1DU0jXN8TtDEpPVZAlEn7ZsYYhh0io4qa)
 Settings presets created by KoboldAI users.
 | Name | Author | Model | Description |
 | --- | --- | --- | --- |
@@ -38,5 +38,3 @@ Settings presets created by KoboldAI users.
 | Mayday | xen0 | Adventure 6B | Wacky plot, creativity from AI, crazy stories you want AI to weird out. |
 | Good Winds | xen0 | Skein 6B | Let AI direct the plot, but still stay logical. |
 | Liminal Drift | Chasm | OPT 13B | Drives coherent dialogue, responses, and behavior, sometimes surreal situations arise based on information already present in the story. |
-## Repository
-https://drive.google.com/drive/folders/1jTXJjKtU0kwLZeWm3pYAfUbSgOry3c_B
