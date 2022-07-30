@@ -17,7 +17,7 @@ Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
 
 Q: What are 2.7B, 6B, 13B, 20B?<br>
-A: These are the sizes of AI models, measured in billions of parameters. Accordingly, 2.7B = 2.7 billion-parameter, 6B = 2.7 billion-parameter, 13B = billion-parameter, 20B = billion-parameter.
+A: These are the sizes of AI models, measured in billions of parameters. Accordingly, 2.7B = 2.7 billion-parameter, 6B = 6 billion-parameter, 13B = 13 billion-parameter, 20B = 20 billion-parameter.
 
 Q: What are the differences between 2.7B, 6B, 13B, 20B models?<br>
 A: In short, the coherence of the output. Its basically how large the AI's brain is. Example: Imagine the brain off a child versus the brain of an adult. You can teach them the exact same thing and they can do the exact same thing. However, the adult brain will learn it better. So the bigger the models size (the number of billion-paramater), the better the model's understanding of your input.
