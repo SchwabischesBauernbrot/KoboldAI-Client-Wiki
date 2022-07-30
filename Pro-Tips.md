@@ -200,7 +200,8 @@ BANNED/BANN: ( Forbidden behavior )<br>
 
 <details>
   <summary>Illustrative example</summary>
-<br>  
+<br>
+SFW-focused<br>
 narrative: Increased detail for narrative. Longer paragraphs with deeper descriptions.<br>
 verbose: Strong effect. Longer descriptions, with more dialogue. Slows down scenes a bit.<br>
 vivid: Purple prose, focus on descriptions. May be too vivid for normal usage. Combines well with more balanced styles.<br>
