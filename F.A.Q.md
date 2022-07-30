@@ -3,15 +3,6 @@ A collection of frequently asked questions and answers by users. The answers are
 ## KoboldAI
 Q: What is a token?<br>
 A: Token is a piece of word (about 3-4 characters).
-## Colab
-Q: What is Colab?<br>
-A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
-
-Q: Why do we use Colab to run KoboldAI?<br>
-A: Colab is currently the only way (except for Kaggle) to get the free computing power needed to run models in KoboldAI.
-
-Q: Why don't we use Kaggle to run KoboldAI then?<br>
-A: Kaggle does not support all of the features required for KoboldAI.
 
 Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
@@ -27,6 +18,16 @@ A: It depends on the size of the model. The bigger the model, the longer the loa
 
 Q: What are the official and united versions? What are the differences between them?<br>
 A: The official version is a more or less stable version of KoboldAI. The united version is an experimental version of KoboldAI, less stable, but with a number of features that will then sooner or later be ported to the official version.
+
+## Colab
+Q: What is Colab?<br>
+A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
+
+Q: Why do we use Colab to run KoboldAI?<br>
+A: Colab is currently the only way (except for Kaggle) to get the free computing power needed to run models in KoboldAI.
+
+Q: Why don't we use Kaggle to run KoboldAI then?<br>
+A: Kaggle does not support all of the features required for KoboldAI.
 
 Q: What is a provider?<br>
 A: To run, KoboldAI needs a server where this can be done. There are currently three providers that provide this capability: Cloudflare, Localtunnel, and ngrok (not represented in Colab). Once you have finished downloading and running KoboldAI in Colab, a link provided by one of these providers is given.
