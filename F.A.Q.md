@@ -61,7 +61,7 @@ A: Change any of the parameters on the Colab TPU page (model/version/provider). 
 Q: When I ran KoboldAI with Cloudflare, I got an Argo Tunnel error (Error 1033) when I clicked the generated link. What should I do?<br>
 A: Wait 1 to 5 minutes and refresh the page.
 
-Q: I got this error. What should I do? ( external/org_tensorflow/tensorflow/compiler/xla/python/tpu_driver/client/tpu_client.cc:618] TPU Execute is taking a long time. This might be due to a deadlock between multiple TPU cores or a very slow program. )<br>
+Q: I got this error. What should I do? ( W external/org_tensorflow/tensorflow/compiler/xla/python/tpu_driver/client/tpu_client.cc:618] TPU Execute is taking a long time. This might be due to a deadlock between multiple TPU cores or a very slow program. )<br>
 A: Sometimes you can get faulty TPU. Go to Runtime -> Sessions and then end all sessions you can get a new one.
 
 ***
