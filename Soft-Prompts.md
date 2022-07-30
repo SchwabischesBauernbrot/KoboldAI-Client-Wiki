@@ -38,4 +38,6 @@ Rarely, a soft prompt may work somewhat on a model of the same size but differen
 
 If you open up one of KoboldAI's soft prompt zip files, you will see a file called tensor.npy inside. This is the two-dimensional array (in NumPy array format) that we concatenate at the beginning of the embeddings, if you are curious.
 
-*TODO: Add information on how to train a soft prompt and on dataset making.*
+## Creating your own
+You can use this link to train on colab:
+https://henk.tech/softtuner
