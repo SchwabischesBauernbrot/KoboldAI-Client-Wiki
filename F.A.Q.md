@@ -19,6 +19,27 @@ A: It depends on the size of the model. The bigger the model, the longer the loa
 Q: What are the official and united versions? What are the differences between them?<br>
 A: The official version is a more or less stable version of KoboldAI. The united version is an experimental version of KoboldAI, less stable, but with a number of features that will then sooner or later be ported to the official version.
 
+Q: What is the prompt?<br>
+A: The prompt is the first paragraph or two you give the AI in the action box to allow it to get the story started and allow it to generate the first response.
+
+Q: The enter text here thing is the initial prompt, right?<br>
+A: Yes, that text box at the bottom of the screen is for you to type your initial prompt and later for you to type your input.
+
+Q: Does KoboldAI save my story/adventure?<br>
+A: Yes, it saves anytime to the story folder when you click "save" from the top menu.
+
+Q: Are my settings always saved?<br>
+A: Yes. You can find the .settings files containing your settings values in the KoboldAI -> settings folder.
+
+Q: What is the amount of tokens?<br>
+A: The amount of tokens is the context of the story. The more tokens, the more consistency and memory used. But some models can't handle the full 2048 and break (act weird until you reduce the tokens).
+
+Q: Does "gens per action" make it so multiple possible continuations are generated and I pick one?<br>
+A: It does make multiple generations of the number you set it to, but takes that number of times longer to produce the results. Set it to 3 gens per action and it will take roughly 3 times as long as 1 gen.
+
+Q: Can I change from story mode to adventure mode and vice versa after a story has already started?<br>
+A: Yes. If you want story mode, then write the prompt and all new actions in third person. If you want adventure mode, then write the prompt and new actions in first person. But you can swap during play, although how well the model picks up on that is dependent on many factors.
+
 ## Colab
 Q: What is Colab?<br>
 A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
@@ -71,6 +92,9 @@ A: Try the installer for a hassle-free install and then you've already downloade
 
 Q: What should I do to start playing Kobold offline (to run it on my machine)?<br>
 A: Download the installer and run it, follow the onscreen instructions and then when you start the game you'll be asked to pick a model. The model is downloaded to your hard drive and you won't have to download it again unless you want to try a different model. Once the model is loaded you can load a previous story or create one in the usual way by adding the memory section ((a few lines you want it to remember, main character, location, goals), author's note (writing style, genre, etc.) and WI entries (characters, locations, etc.).
+
+Q: Does it matter if I close the command window?<br>
+A: Yes, that will exit the program.
 
 ***
 
