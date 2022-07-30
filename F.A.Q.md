@@ -8,9 +8,9 @@ Q: What is Colab?<br>
 A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
 
 Q: Why do we use Colab to run KoboldAI?<br>
-A: Colab is currently the only way (besides Kaggle) to get the free computing power needed to run models in KoboldAI.
+A: Colab is currently the only way (except for Kaggle) to get the free computing power needed to run models in KoboldAI.
 
-Q: Why don't we use Kaggle then?<br>
+Q: Why don't we use Kaggle to run KoboldAI then?<br>
 A: Kaggle does not support all of the features required for KoboldAI.
 
 Q: What are the models?<br>
