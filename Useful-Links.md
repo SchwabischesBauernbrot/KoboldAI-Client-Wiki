@@ -1,4 +1,0 @@
-* User LightSaveUs has created a repository of KoboldAI presets (mostly converted from NovelAI): [https://drive.google.com/drive/folders/1jTXJjKtU0kwLZeWm3pYAfUbSgOry3c_B](https://drive.google.com/drive/folders/1jTXJjKtU0kwLZeWm3pYAfUbSgOry3c_B)
-* An editor for W++ World Info format: [https://nolialsea.github.io/Wpp/](https://nolialsea.github.io/Wpp/)
-* A list of Genre tags used in Nerys dataset: [https://docs.google.com/spreadsheets/d/1ghfb1XmfNOYh1KU6y5f_m8_PFQqmPNxsYDZMUKF4ogE/edit#gid=0](https://docs.google.com/spreadsheets/d/1ghfb1XmfNOYh1KU6y5f_m8_PFQqmPNxsYDZMUKF4ogE/edit#gid=0)
-* For formatting the dataset for softprompt training, these's _Dumb text reformatter for NovelAI modules_: [https://ermela.net/dumb-reformatter/](https://ermela.net/dumb-reformatter/)
