@@ -83,7 +83,7 @@ A: The TPU/GPU can be used for up to 12 hours. However, Colab checks your activi
 Q: I want to run KoboldAI in Colab with my preset settings (my preferred model/version/provider) instead of having to change the default settings in the Colab TPU page every time. How do I do this?<br>
 A: Change any of the parameters on the Colab TPU page (model/version/provider). At the top, next to "Help" you will see "Cannot save changes". Click on this and a window will appear with the option "Save a copy in Drive". Click on that. Voila! Now you have a copy of the official notebook with which you can do whatever you want (including changing the startup settings to suit your preferences).
 
-Q: Does KoboldAI have a custom models support?<br>
+Q: Does KoboldAI have custom models support?<br>
 A: Yes, it does. You can run any AI model (up to 20B size) that can generate text from the [Huggingface](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads) website. To do this, on the page of the selected model, click on the "Copy model name to clipboard" square icon next to the model name highlighted in bold. Then go to the TPU/GPU Colab page (it depends on the size of the model you chose: GPU is for 1.3 and up to 6B models, TPU is for 6B and up to 20B models) and paste with Ctrl+C and Ctrl+V the path to the model in the "Model" field. The result will look like this: "Model: EleutherAI/gpt-j-6B". That's it, now you can run it the same way you run the KoboldAI models. 
 
 ## Local
