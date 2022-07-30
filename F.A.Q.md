@@ -77,14 +77,6 @@ A: The TPU/GPU can be used for up to 12 hours. However, Colab checks your activi
 Q: I want to run KoboldAI in Colab with my preset settings (my preferred model/version/provider) instead of having to change the default settings in the Colab TPU page every time. How do I do this?<br>
 A: Change any of the parameters on the Colab TPU page (model/version/provider). At the top, next to "Help" you will see "Cannot save changes". Click on this and a window will appear with the option "Save a copy in Drive". Click on that. Voila! Now you have a copy of the official notebook with which you can do whatever you want (including changing the startup settings to suit your preferences).
 
-## Colab Problems
-
-Q: When I ran KoboldAI with Cloudflare, I got an Argo Tunnel error (Error 1033) when I clicked the generated link. What should I do?<br>
-A: Wait 1 to 5 minutes and refresh the page.
-
-Q: I got this error. What should I do? ( W external/org_tensorflow/tensorflow/compiler/xla/python/tpu_driver/client/tpu_client.cc:618] TPU Execute is taking a long time. This might be due to a deadlock between multiple TPU cores or a very slow program. )<br>
-A: Sometimes you can get faulty TPU. Go to Runtime -> Sessions and then end all sessions you can get a new one.
-
 ## Local
 
 Q: What should I do to download the local (offline) KoboldAI version?<br>
