@@ -99,4 +99,4 @@ A: Yes, that will exit the program.
 
 ***
 
-P.S. If you don't find the answers to any questions, please see the other pages on this wiki. They may have information about what you are looking for.
+P.S. If you still have questions, please see the other pages on this wiki. They may have information you are looking for.
