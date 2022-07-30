@@ -26,7 +26,7 @@ Q: How long do models take to load?<br>
 A: It depends on the size of the model. The bigger the model, the longer the loading time. On average, 2.7B models take 5 minutes to load, 6B models take 10 minutes, and 13B models take 15 minutes.
 
 Q: What are the official and united versions? What are the differences between them?<br>
-A: The official version is a more or less stable version of KoboldAI. The united version is an experimental version of KoboldAI, less stable, but with a number of innovations that will then sooner or later be ported to the official version.
+A: The official version is a more or less stable version of KoboldAI. The united version is an experimental version of KoboldAI, less stable, but with a number of features that will then sooner or later be ported to the official version.
 
 Q: What is a provider?<br>
 A: To run, KoboldAI needs a server where this can be done. There are currently three providers that provide this capability: Cloudflare, Localtunnel, and ngrok (not represented in Colab). Once you have finished downloading and running KoboldAI in Colab, a link provided by one of these providers is given.
