@@ -45,7 +45,7 @@ Q: I keep getting a message that TPU accelerators are not available.<br>
 A: The use of TPU in Colab is limited because of the need to share this resource among all users. It depends on the frequency and duration of your TPU usage as well as busy hours. To solve this problem, try waiting 1 to 5 minutes on the TPU Colab page without reloading it, and then click "Connect" again. Repeat until you get access, or try again later.
 
 Q: What are the busy hours?<br>
-A: Busy hours is the time of day during which TPU is most often used by users and mostly by Google (since developers also use TPU for their needs). During busy hours, your access to TPU is likely to be so limited that you will constantly get a message denying access to TPU accelerators. To solve this problem, run KoboldAI on TPU between night and morning. Busy hours start in the morning and last at small intervals all day until late evening, so the only time the TPU runtime environment will be 100% available is at night.
+A: Busy hours is the time of day during which TPU is most often used by users and mostly by Google (since developers also use TPU for their needs). During busy hours, your access to TPU is likely to be so limited that you will constantly get a message denying access to TPU accelerators. To solve this problem, run KoboldAI on TPU between night and morning. Busy hours start in the morning and last all day until late evening, so the only time the TPU runtime environment will be 100% available is at night.
 
 Q: Does the GPU version have the same access limitations as the TPU version?<br>
 A: Usually, no, it doesn't. The GPU version is always available.
