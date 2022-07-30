@@ -46,7 +46,7 @@ A: Change any of the parameters on the Colab TPU page (model/version/provider). 
 Q: What is the Captcha and how long can I use the TPU?<br>
 A: The TPU can be used for up to 12 hours. However, Colab checks your activity every 30 minutes (on average) (whether you use TPU passively, wasting resources or not) by showing you a captcha. To ensure that your usage priority is not lowered and that you can continue to use TPU without problems, click on the captcha. It will disappear for the next 30 minutes or more.
 
-Q: Does the GPU version have the same access problems as the TPU version?
+Q: Does the GPU version have the same access problems as the TPU version?<br>
 A: Usually, no, it doesn't. The GPU version is always available.
 
 ## Colab Problems
