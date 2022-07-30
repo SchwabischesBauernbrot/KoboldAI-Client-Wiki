@@ -40,6 +40,12 @@ A: It does make multiple generations of the number you set it to, but takes that
 Q: Can I change from story mode to adventure mode and vice versa after a story has already started?<br>
 A: Yes. If you want story mode, then write the prompt and all new actions in third person. If you want adventure mode, then write the prompt and new actions in first person. But you can swap during play, although how well the model picks up on that is dependent on many factors.
 
+Q: Is it normal for a box next to the action text box to say "Mode: Story" while in adventure mode in the settings?<br>
+A: Adventure mode has two modes: Mode: Story and Mode: Adventure. Mode: Story directly inputs what you type into the story while Mode: Adventure turns what you write into actions. Click on Mode: story or Mode: Adventure near the box to swap between them.
+
+Q: Does it switch only after entering the initial prompt?<br>
+A: It switches to story if you dont have a prompt typed up yet.
+
 ## Colab
 Q: What is Colab?<br>
 A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
@@ -77,10 +83,13 @@ A: The TPU/GPU can be used for up to 12 hours. However, Colab checks your activi
 Q: I want to run KoboldAI in Colab with my preset settings (my preferred model/version/provider) instead of having to change the default settings in the Colab TPU page every time. How do I do this?<br>
 A: Change any of the parameters on the Colab TPU page (model/version/provider). At the top, next to "Help" you will see "Cannot save changes". Click on this and a window will appear with the option "Save a copy in Drive". Click on that. Voila! Now you have a copy of the official notebook with which you can do whatever you want (including changing the startup settings to suit your preferences).
 
+Q: Does KoboldAI have a custom models support?<br>
+A: Yes, it does. You can run any AI model (up to 20B size) from the [Huggingface](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads) website that can generate text. To do this, on the page of the selected model, click on the "Copy model name to clipboard" square icon next to the model name highlighted in bold. Then go to the TPU/GPU Colab page (it depends on the size of the model you chose: GPU is for 1.3B to 6B models, TPU is for 6B and up to 20B models) and paste with Ctrl+C and Ctrl+V the path to the model in the "Model" field. The result will look like this: "Model: EleutherAI/gpt-j-6B". That's it, now you can run it the same way you run the KoboldAI models. 
+
 ## Local
 
 Q: What should I do to download the local (offline) KoboldAI version?<br>
-A: Try the installer for a hassle-free install and then you've already downloaded many of the dependancies ( https://sourceforge.net/projects/koboldai/files/latest/download ).
+A: Try the [installer](https://sourceforge.net/projects/koboldai/files/latest/download) for a hassle-free install and then you've already downloaded many of the dependancies.
 
 Q: What should I do to start playing Kobold offline (to run it on my machine)?<br>
 A: Download the installer and run it, follow the onscreen instructions and then when you start the game you'll be asked to pick a model. The model is downloaded to your hard drive and you won't have to download it again unless you want to try a different model. Once the model is loaded you can load a previous story or create one in the usual way by adding the memory section (a few lines you want it to remember, main character, location, goals), author's note (writing style, genre, etc.) and world info entries (characters, locations, etc.).
