@@ -23,6 +23,8 @@ There are two different pseudocode techniques that have been found as best pract
 
 The only notable differences between W++ and SBF aside from which models they influence are their basic formatting, and W++ appears to have far more explicit control beyond storing information but can also serve as a means to push instructions.
 
+You can edit both W++ and SBF pseudocode formats using this [WI Format Editor](https://nolialsea.github.io/Wpp/).
+
 ## W++
 
 Language models influenced by W++ are EleutherAI's GPT-J and GPT-Neo series. Meta's Opt series has also been speculated to be responsive to W++ pseudocode while observed under research conditions.
