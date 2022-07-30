@@ -1,5 +1,5 @@
 ## Introduction
-A collection of frequently asked questions and answers. The answers are based on other users' experiences with KoboldAI, so they may not always be completely accurate.
+A collection of frequently asked questions and answers to them. The answers are based on other users' experiences with KoboldAI, so they may not always be completely accurate.
 ## KoboldAI
 Q: What is a token?<br>
 A: Token is a piece of word (about 3-4 characters).
