@@ -2,7 +2,7 @@
 A collection of frequently asked questions and answers to them. The answers are based on other users' experiences with KoboldAI, so they may not always be completely accurate.
 ## KoboldAI
 Q: What is a token?<br>
-A: Token is a piece of word (about 3-4 characters).
+A: Token is a piece of word (about 3-4 characters) or a whole word itself. Tokens are essentially the number of words that go into the AI pool to create the response.
 
 Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
@@ -63,6 +63,14 @@ A: Wait 1 to 5 minutes and refresh the page.
 
 Q: I got this error. What should I do? ( W external/org_tensorflow/tensorflow/compiler/xla/python/tpu_driver/client/tpu_client.cc:618] TPU Execute is taking a long time. This might be due to a deadlock between multiple TPU cores or a very slow program. )<br>
 A: Sometimes you can get faulty TPU. Go to Runtime -> Sessions and then end all sessions you can get a new one.
+
+## Local
+
+Q: What should I do to download the local (offline) KoboldAI version?<br>
+A: Try the installer half way down the page for a hassle-free install and then you've already downloaded many of the dependancies ( https://sourceforge.net/projects/koboldai/files/latest/download ).
+
+Q: What should I do to start playing Kobold offline (to run it on my machine)?<br>
+A: Download the installer and run it, follow the onscreen instructions and then when you start the game you'll be asked to pick a model. The model is downloaded to your hard drive and you won't have to download it again unless you want to try a different model. Once the model is loaded you can load a previous story or create one in the usual way by adding the memory section ((a few lines you want it to remember, main character, location, goals), author's note (writing style, genre, etc.) and WI entries (characters, locations, etc.).
 
 ***
 
