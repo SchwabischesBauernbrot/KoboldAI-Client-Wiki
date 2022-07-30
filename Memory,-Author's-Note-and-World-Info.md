@@ -53,4 +53,4 @@ World Info is where you can flesh out the details of your wider world. The engin
 
     [The landscape surrounding the colony is an dark and windswept wasteland far from the closest star. The planet's thin but humid atmosphere leaves thick fog hugging the ground and blowing around in the wind. The terrain is mostly jagged boulders and cliffs that conceal hidden entrances to caves and tunnels.]
 	
-	<sub><sup>(used with permission from https://www.reddit.com/r/NovelAi/comments/o3seew/how_to_use_memory_authors_note_and_lorebook/)</sub></sup>
+	<sub><sup>(used with permission from [this post](https://www.reddit.com/r/NovelAi/comments/o3seew/how_to_use_memory_authors_note_and_lorebook/))</sub></sup>
