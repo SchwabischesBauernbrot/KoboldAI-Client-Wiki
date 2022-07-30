@@ -14,7 +14,7 @@ Q: What are the differences between 2.7B, 6B, 13B, 20B models?<br>
 A: In short, the coherence of the output. Its basically how big the AI's brain is. Example: Imagine the brain off a child versus the brain of an adult. You can teach them the exact same thing and they can do the exact same thing. However, the adult brain will learn it better. So the bigger the models size (the number of billion-paramater), the better the model's understanding of your input.
 
 Q: How long do models take to load?<br>
-A: It depends on the size of the model. The bigger the model, the longer the loading time. On average, 2.7B models take 5 minutes to load, 6B models take 10 minutes, and 13B models take 15 minutes.
+A: It depends on the size of the model. The bigger the model, the longer the loading time. On average, 2.7B models take about 5 minutes to load, 6B models take about 10 minutes, and 13B models take about 15 minutes.
 
 Q: What are the official and united versions? What are the differences between them?<br>
 A: The official version is a more or less stable version of KoboldAI. The united version is an experimental version of KoboldAI, less stable, but with a number of features that will then sooner or later be ported to the official version.
