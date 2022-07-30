@@ -39,4 +39,4 @@ Rarely, a soft prompt may work somewhat on a model of the same size but differen
 If you open up one of KoboldAI's soft prompt zip files, you will see a file called tensor.npy inside. This is the two-dimensional array (in NumPy array format) that we concatenate at the beginning of the embeddings, if you are curious.
 
 ## Creating your own
-You can use this [Easy Softprompt Tuner](https://henk.tech/softtuner) to create your own soft prompt.
+You can use this [Easy Softprompt Tuner](https://henk.tech/softtuner) to create your own soft prompt. However, you must select/create a dataset before doing this. For formatting the dataset for softprompt training you can use this [Dumb text reformatter for NovelAI modules](https://ermela.net/dumb-reformatter/).
