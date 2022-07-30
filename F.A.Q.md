@@ -1,10 +1,13 @@
 ## Introduction
 A collection of frequently asked questions and answers by users. The answers are based on other users' experiences with KoboldAI, so they may not always be completely accurate.
+## KoboldAI
+Q: What is a token?<br>
+A: Token is a piece of word (about 3-4 characters).
 ## Colab
 Q: What is Colab?<br>
 A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
 
-Q: Why do we use Colab to run KobaldAI?<br>
+Q: Why do we use Colab to run KoboldAI?<br>
 A: Colab is currently the only way (besides Kaggle) to get the free computing power needed to run models in KoboldAI.
 
 Q: Why don't we use Kaggle then?<br>
