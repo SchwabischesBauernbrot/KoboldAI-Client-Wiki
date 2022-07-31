@@ -1,6 +1,6 @@
-# Introduction
+## Introduction
 A collection of pro tips that can help to create a more coherent, well-written stories and adventures.
-# Prompt Tips
+## Prompt Tips
 
 | Name | Description |
 | --- | --- |
@@ -17,7 +17,7 @@ There was nothing so very remarkable in that; nor did Alice think it so very muc
 <br>
 </details>
 
-# Pseudocode
+## Pseudocode
 ## Introduction
 There are two different pseudocode techniques that have been found as best practice for storing dense information in memory such as relational status between characters, how the world operates, and any other information desired to be consistent/persistent. These are two formats, one dubbed W++ which works best with language models that have an understanding of following explicit instructions and basic code, and SBF or Square Bracket Format which works best with language models more focused only on natural language.
 
@@ -25,7 +25,7 @@ The only notable differences between W++ and SBF aside from which models they in
 
 You can edit both W++ and SBF pseudocode formats using this [WI Format Editor](https://nolialsea.github.io/Wpp/).
 
-## W++
+### W++
 
 Language models influenced by W++ are EleutherAI's GPT-J and GPT-Neo series. Meta's Opt series has also been speculated to be responsive to W++ pseudocode while observed under research conditions.
 
@@ -60,7 +60,7 @@ Rule 5("Pigeons can't be trusted.")<br>
 </details>
 
 
-## SBF
+### SBF
 Language models influenced by SBF are Meta's XGLM and Fairseq-dense series models.
 
 <details>
@@ -83,7 +83,7 @@ Fact 1("Every time someone tries to watch television the power goes out.")<br>
 
 Essentially telling the AI "This is always how things work" vs the more directive "You will follow these rules" from the earlier example.
 
-# Pseudocode Tips
+## Pseudocode Tips
 
 | Name | Description |
 | --- | --- |
