@@ -25,7 +25,7 @@ If you want to do this with your friends we advise using the main character as Y
 
 If you want to use KoboldAI as a writing assistant this is best done in the regular mode with a model optimized for Novels. These models do not make the assumption that there is a You character and focus on Novel like writing. For writing these will often give you better results than Adventure or Generic models. That said, if you give it a good introduction to the story large generic models like 13B can be used if a more specific model is not available for what you wish to write. You can also try to use models that are not specific to what you wish to do, for example a NSFW Novel model for a SFW story if a SFW model is unavailable. This will mean you will have to correct the model more often because of its bias, but can still produce good enough results if it is familiar enough with your topic.
 
-## Play KoboldAI online for free on Google Colab
+## Play KoboldAI online on Google Colab
 
 If you would like to play KoboldAI online for free on a powerful computer you can use Google Colaboraty. We provide two editions, a TPU and a GPU edition with a variety of models available. These run entirely on Google's Servers and will automatically upload saves to your Google Drive if you choose to save a story (Alternatively, you can choose to download your save instead so that it never gets stored on Google Drive). Detailed instructions on how to use them are at the bottom of the Colab's.
 
@@ -35,13 +35,13 @@ Each edition features different models and requires different hardware to run, t
 [Click here for the GPU Edition Colab](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/GPU.ipynb)<br>
 
 ## Install KoboldAI on your own computer
-### Installing KoboldAI offline bundle on Windows 7 or higher using the KoboldAI Offline Installer
+### Installing KoboldAI offline bundle on Windows 7
 1. [Download the latest offline installer from here](https://sourceforge.net/projects/koboldai/files/latest/download)
 2. Run the installer to place KoboldAI on a location of choice, KoboldAI is portable software and is not bound to a specific harddrive. (Because of long paths inside our dependencies you may not be able to extract it many folders deep).
 3. Update KoboldAI to the latest version with update-koboldai.bat if desired.
 4. Use KoboldAI offline using play.bat or remotely with remote-play.bat
 
-### Installing KoboldAI Github release on Windows 10 or higher using the KoboldAI Runtime Installer
+### Installing KoboldAI Github release on Windows 10
 1. Extract the .zip to a location you wish to install KoboldAI, you will need roughly 20GB of free space for the installation (this does not include the models).
 2. Open install_requirements.bat as administrator.
 3. Choose the regular version of Transformers (Option 1), finetuneanon is depreciated and no longer recommended.
@@ -49,7 +49,7 @@ Each edition features different models and requires different hardware to run, t
 5. The installation will now automatically install its requirements, some stages may appear to freeze do not close the installer until it asks you to press a key. Before pressing a key to exit the installer please check if errors occurred. Most problems with the game crashing are related to installation/download errors. Disabling your antivirus can help if you get errors.
 6. Use play.bat to start KoboldAI.
 
-### Installing KoboldAI on Linux using the KoboldAI Runtime
+### Installing KoboldAI on Linux
 1. Clone the URL of this Github repository (For example git clone https://github.com/koboldai/koboldai-client )
 2. AMD user? Make sure ROCm is installed if you want GPU support. Is yours not compatible with ROCm? Follow the usual instructions.
 3. Run play.sh or if your AMD GPU supports ROCm use play-rocm.sh
