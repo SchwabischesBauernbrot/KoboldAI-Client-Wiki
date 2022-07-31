@@ -94,11 +94,8 @@ A: Yes, it does. You can run any AI model (up to 20B size) that can generate tex
 Q: What are the system requirements to run KoboldAI on my machine?<br>
 A: The base program is around 13 GB, not including the sizes of the installer and the models. You don't need any particular graphics card to run on CPU but to run on GPU you need an NVIDIA card with CUDA compute capability at least 3.7 or an AMD card supported by ROCm. If you want to use an AMD card with ROCm you additionally must be running Linux. The memory requirements vary depending on the model.
 
-Q: What should I do to download the local (offline) KoboldAI version?<br>
-A: Try the [installer](https://sourceforge.net/projects/koboldai/files/latest/download) for a hassle-free install and then you've already downloaded many of the dependancies.
-
 Q: What should I do to start playing Kobold offline (to run it on my machine)?<br>
-A: Download the installer and run it, follow the onscreen instructions and then when you start the game you'll be asked to pick a model. The model is downloaded to your hard drive and you won't have to download it again unless you want to try a different model. Once the model is loaded you can load a previous story or create one in the usual way by adding the memory section (a few lines you want it to remember, main character, location, goals), author's note (writing style, genre, etc.) and world info entries (characters, locations, etc.).
+A: Download the [installer](https://sourceforge.net/projects/koboldai/files/latest/download) and run it, follow the onscreen instructions and then when you start the game you'll be asked to pick a model. The model is downloaded to your hard drive and you won't have to download it again unless you want to try a different model. Once the model is loaded you can load a previous story or create one in the usual way by adding the memory section (a few lines you want it to remember, main character, location, goals), author's note (writing style, genre, etc.) and world info entries (characters, locations, etc.).
 
 Q: Does it matter if I close the command window?<br>
 A: Yes, that will exit the program.
