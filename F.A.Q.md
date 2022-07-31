@@ -7,6 +7,9 @@ A: Token is a piece of word (about 3-4 characters) or a whole word. Tokens are e
 Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
 
+Q: How are models made?<br>
+A: They take a large amount of text from stories and stuff, then run the program through a special training protocol to make sure it can spit out generated text without it basically being just ripped out of the pre-established text.
+
 Q: What are 2.7B, 6B, 13B, 20B?<br>
 A: These are the sizes of AI models, measured in billions of parameters. Accordingly, 2.7B = 2.7 billion-parameter, 6B = 6 billion-parameter, 13B = 13 billion-parameter, 20B = 20 billion-parameter.
 
