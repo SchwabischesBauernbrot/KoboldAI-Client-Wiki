@@ -2,7 +2,7 @@
 A collection of frequently asked questions and answers to them. The answers are based on other users' experiences with KoboldAI, so they may not always be completely accurate.
 ## KoboldAI
 Q: What is a token?<br>
-A: Token is a piece of word (about 3-4 characters) or a whole word itself. Tokens are essentially the number of words that go into the AI pool to create the response.
+A: Token is a piece of word (about 3-4 characters) or a whole word. Tokens are essentially the number of words that go into the AI pool to create the response.
 
 Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
@@ -29,7 +29,10 @@ Q: Does KoboldAI save my story/adventure?<br>
 A: Yes, it saves anytime to the story folder when you click "save" from the top menu.
 
 Q: Are my settings always saved?<br>
-A: Yes. You can find the .settings files containing your settings values in the KoboldAI -> settings folder.
+A: Yes, the changes are saved automatically every time you change the settings values.
+
+Q: Where are my stories and settings stored? How can I load my own userscripts or softprompts?
+A: KoboldAI uses your Google Drive to store your files and settings. You can find your stories files in the KoboldAI -> stories folder and the .settings files containing your settings values in the KoboldAI -> settings folder. If you wish to upload a softprompt or userscript this can be done directly on the Google Drive website. You can also use this to download backups of your KoboldAI related files.
 
 Q: What is the amount of tokens?<br>
 A: The amount of tokens is the context of the story. The more tokens, the more consistency and memory used. But some models can't handle the full 2048 and break (act weird until you reduce the tokens).
@@ -74,17 +77,17 @@ A: The use of TPU in Colab is limited because of the need to share this resource
 Q: What are the busy hours?<br>
 A: Busy hours is the time of day during which TPU is most often used by users and mostly by Google (since developers also use TPU for their needs). During busy hours, your access to TPU is likely to be so limited that you will constantly get a message denying access to TPU accelerators. To solve this problem, run KoboldAI on TPU between night and morning. Busy hours start in the morning and last all day until late evening, so the only time the TPU runtime environment will be 100% available is at night.
 
-Q: Does the GPU version have the same access limitations as the TPU version?<br>
-A: Usually, no, it doesn't. The GPU version is always available.
-
 Q: What is the Captcha and how long can I use the TPU/GPU?<br>
 A: The TPU/GPU can be used for up to 12 hours. However, Colab checks your activity every 30 minutes (on average) (whether you use TPU/GPU passively, wasting resources or not) by showing you a captcha. To ensure that your usage priority is not lowered and that you can continue to use TPU/GPU without problems, click on the captcha. It will disappear for the next 30 minutes or more.
+
+Q: What should I do after I finished using KoboldAI?<br>
+A: Get back to TPU/GPU Colab page, go to the "Runtime menu", click on "Manage Sessions" and terminate your open sessions that you no longer need. This trick can help you maintain higher priority towards getting a TPU.
 
 Q: I want to run KoboldAI in Colab with my preset settings (my preferred model/version/provider) instead of having to change the default settings in the Colab TPU page every time. How do I do this?<br>
 A: Change any of the parameters on the Colab TPU page (model/version/provider). At the top, next to "Help" you will see "Cannot save changes". Click on this and a window will appear with the option "Save a copy in Drive". Click on that. Voila! Now you have a copy of the official notebook with which you can do whatever you want (including changing the startup settings to suit your preferences).
 
 Q: Does KoboldAI have custom models support?<br>
-A: Yes, it does. You can run any AI model (up to 20B size) that can generate text from the [Huggingface](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads) website. To do this, on the page of the selected model, click on the "Copy model name to clipboard" square icon next to the model name highlighted in bold. Then go to the TPU/GPU Colab page (it depends on the size of the model you chose: GPU is for 1.3 and up to 6B models, TPU is for 6B and up to 20B models) and paste with Ctrl+C and Ctrl+V the path to the model in the "Model" field. The result will look like this: "Model: EleutherAI/gpt-j-6B". That's it, now you can run it the same way you run the KoboldAI models. 
+A: Yes, it does. You can run any AI model (up to 20B size) that can generate text from the [Huggingface](https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads) website. To do this, on the page of the selected model, click on the "Copy model name to clipboard" square icon next to the model name highlighted in bold. Then go to the TPU/GPU Colab page (it depends on the size of the model you chose: GPU is for 1.3 and up to 6B models, TPU is for 6B and up to 20B models) and paste with Ctrl+C and Ctrl+V the path to the model in the "Model" field. The result will look like this: "Model: EleutherAI/gpt-j-6B". That's it, now you can run it the same way you run the KoboldAI models.
 
 ## Local
 
@@ -96,6 +99,11 @@ A: Download the installer and run it, follow the onscreen instructions and then 
 
 Q: Does it matter if I close the command window?<br>
 A: Yes, that will exit the program.
+
+## Local Errors
+
+Q: How do I fix the error ['subst' is not recognized as an internal or external command, operable program or batch file]?<br>
+A: This is solved by making sure [C:\Windows\System32] is set in the Path in environment variables for both user and system as the program can't find the subst.exe. To do this you have to go into system properties, then the advanced tab, then into the environment variables. Set the variable to [Path] if it doesn't already exist, then set the value to [C:\Windows\System32].
 
 ***
 
