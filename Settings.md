@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 When the AI generates text, the general procedure is as follows:
 
@@ -29,9 +29,9 @@ With the logit values converted into ***probabilities*** that add up to 1, we ju
 
 The problem with sampling is that it still usually gives every token a possibility of appearing, so every once in a while a token that makes no sense will be inserted into your story. This is very noticeable when it happens, so ideally it shouldn't happen at all. There are many methods to improve sampling that involve inserting extra steps right before this sampling step.
 
-# Sampling techniques
+## Sampling techniques
 
-## Temperature / Randomness
+### Temperature / Randomness
 
 One of the most basic methods is called temperature-controlled sampling.<sup name="_temperature-name">[[6]](#temperature-name)</sup> Temperature-controlled sampling was originally described in a 1985 paper, *[A Learning Algorithm for Boltzmann Machines](https://www.cs.toronto.edu/~fritz/absps/cogscibm.pdf)*, as a technique for controlling the randomness of an old type of neural network, but has proven itself to be an important technique for controlling randomness of modern text generation models.
 
@@ -41,7 +41,7 @@ The temperature value can be set to any real number not equal to zero (since set
 
 Values greater than 0 and less than 1 cause the probabilities output by the softmax function to move further apart, thus decreasing randomness by making high probability tokens more likely and low probability tokens less likely. Values greater than 1 cause the probabilities to move closer together, increasing randomness. If the temperature value is set to exactly 1, the logits do not change, hence the probabilities remain unaffected.
 
-## Top-k sampling
+### Top-k sampling
 
 Another simple method is top-k sampling, a technique from mainstream statistics.
 
@@ -53,7 +53,7 @@ In practice, top-k sampling has proven to be worse at its job than most of the o
 
 Because of how top-k sampling works, it's highly recommended to have it as the first sampler in KoboldAI (other than temperature, it is okay to have that before top-k). This is because most of the other samplers also set some logits to negative infinity while leaving the others intact, but in a more intelligent way. If top-k comes after a more intelligent sampler and removes at least one token, then it just basically nullified the effects of the previous samplers.
 
-## Top-p sampling / Nucleus sampling
+### Top-p sampling / Nucleus sampling
 
 Top-p sampling, also known as nucleus sampling,<sup name="_nucleus-sampling-name">[[7]](#nucleus-sampling-name)</sup> is one of the most widely used sampling methods in text generation. It was first described by the paper *[The Curious Case of Neural Text Degeneration](https://arxiv.org/pdf/1904.09751.pdf)*.
 
@@ -69,7 +69,7 @@ Lower top-p values cause fewer tokens to be kept. Setting the top-p value to 0 i
 
 It is intended to use a relatively high value like 0.9 or 0.95, since even values as high as these often keep at most a dozen tokens. Lower values would be detrimental to the creativity of the model.
 
-## Top-a sampling
+### Top-a sampling
 
 This is a relatively new sampling method intended for use with BlinkDL's RWKV language models. A description can be found at: https://github.com/BlinkDL/RWKV-LM/tree/4cb363e5aa31978d801a47bc89d28e927ab6912e#the-top-a-sampling-method.
 
@@ -83,7 +83,7 @@ This has the effect of removing more tokens when the maximum probability is very
 
 I have found that top-a sampling produces basically zero effect on the creativity of output text, which may be desirable, but if you want to change the creativity of your model, you should use something else in conjunction with this.
 
-## Tail free sampling
+### Tail free sampling
 
 A relatively complicated sampling method described at https://www.trentonbricken.com/Tail-Free-Sampling/.
 
@@ -109,7 +109,7 @@ This sampling technique is supposed to not have as noticeable of an effect on st
 
 Some people have recommended not using tail free sampling on extremely short stories. Maybe don't turn it on until your story is at least 10 sentences long.
 
-## Typical sampling
+### Typical sampling
 
 An even more complex sampling method from the paper *[Typical Decoding for Natural Language Generation](https://arxiv.org/pdf/2202.00666.pdf)*. This sampling method produces a very pronounced effect on the output that you may or may not like.
 
@@ -129,7 +129,7 @@ Unlike top-p, top-k, top-a and tail free sampling, a token being removed by the 
 
 Typical sampling is known to have a very strong effect on the content of the output. However, even if you set it to an extremely low setting, the output should still be creative. It's kind of hard to explain what happens to the output, you should try it and see.
 
-# Sampler ordering
+## Sampler ordering
 
 KoboldAI allows you to use multiple of these sampling techniques at once by applying these modifications to the logits in series. KoboldAI also allows you to change the order of the samplers in this series, which can have a considerably different effect than just leaving the samplers at their default order.
 
@@ -139,7 +139,7 @@ Chasm has recommended the following sampling settings and sampler order for use 
 
 The default sampler ordering in KoboldAI is top-k, top-a, top-p, TFS, typical, temperature.
 
-# Repetition penalty
+## Repetition penalty
 
 Repetition penalty is a technique used to reduce repetition in generated text. It is an incredibly important setting that should almost always be enabled, especially for smaller models. It was introduced by the authors of the CTRL model in section 4.1 of *[CTRL: A Conditional Transformer Language Model for Controllable Generation](https://arxiv.org/pdf/1909.05858.pdf)*.
 
@@ -168,7 +168,7 @@ Repetition penalty is always applied before all of KoboldAI's samplers. This beh
 
 KoboldAI also inherited repetition penalty slope and repetition penalty range from Clover Edition. If *both* of these settings are not equal to 0, this makes it so that the repetition penalty value is different depending on where the token appeared in the story relative to the end of the story. Refer to [this Desmos widget](https://www.desmos.com/calculator/iui9ldyhwg), which shows a graph with the number of tokens relative to the end of the story (0 means the last token, 1 means the second-last token, etc.) on the x-axis and the repetition penalty on the y-axis. Tokens with a position further from the end of the story than the repetition penalty range are not considered. If a token appears more than once in the story, the token's effective repetition penalty value is calculated based on the last occurrence of that token (the occurrence closest to the end of the story).
 
-# Notes and rambling
+## Notes and rambling
 
 1. <a name="logit">[&#8593;](#_logit)</a> If you Google the word "logit", chances are you'll see something about a "logit function". Logits in the context of machine learning are numbers. The logit function is something a little different. Logits in machine learning get their name from the fact that the logit function is the inverse of the logistic function. So when we apply the softmax function (a generalization of the logistic function) to the logits, it's like we're reversing the logit function and recovering the original values.
 
