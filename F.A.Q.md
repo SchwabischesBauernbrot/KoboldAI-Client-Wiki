@@ -91,6 +91,9 @@ A: Yes, it does. You can run any AI model (up to 20B size) that can generate tex
 
 ## Local
 
+Q: What are the system requirements to run KoboldAI on my machine?<br>
+A: The base program is around 13 GB, not including the sizes of the installer and the models. You don't need any particular graphics card to run on CPU but to run on GPU you need an NVIDIA card with CUDA compute capability at least 3.7 or an AMD card supported by ROCm. If you want to use an AMD card with ROCm you additionally must be running Linux. The memory requirements vary depending on the model.
+
 Q: What should I do to download the local (offline) KoboldAI version?<br>
 A: Try the [installer](https://sourceforge.net/projects/koboldai/files/latest/download) for a hassle-free install and then you've already downloaded many of the dependancies.
 
