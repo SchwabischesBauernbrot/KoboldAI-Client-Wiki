@@ -31,7 +31,7 @@ A: Yes, it saves anytime to the story folder when you click "save" from the top 
 Q: Are my settings always saved?<br>
 A: Yes, the changes are saved automatically every time you change the settings values.
 
-Q: Where are my stories and settings stored? How can I load my own userscripts or softprompts?
+Q: Where are my stories and settings stored? How can I load my own userscripts or softprompts?<br>
 A: KoboldAI uses your Google Drive to store your files and settings. You can find your stories files in the KoboldAI -> stories folder and the .settings files containing your settings values in the KoboldAI -> settings folder. If you wish to upload a softprompt or userscript this can be done directly on the Google Drive website. You can also use this to download backups of your KoboldAI related files.
 
 Q: What is the amount of tokens?<br>
