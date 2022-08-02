@@ -4,7 +4,8 @@ Settings presets ported from NovelAI and adapted for KoboldAI together with the 
 The names and descriptions are taken from NovelAI. For the custom presets, there are no descriptions, only the names and the models they were created for. For the original presets, the names and descriptions were created by their authors.
 
 ## [6B Models](https://drive.google.com/drive/folders/1mXG126USSEfJmd444QgGMgGQScABAPou)
-The settings presets created in NovelAI for the Sigurd model.
+The settings presets created in NovelAI for the Sigurd model. <br>
+Note: These presets are only suitable for KoboldAI's models trained on GPT-J.
 
 | Name | Description |
 | --- | --- |
@@ -16,7 +17,8 @@ The settings presets created in NovelAI for the Sigurd model.
 | Best Guess | A subtle change with alternative context settings. |
 | Pleasing Results | Expectable output with alternative context settings. |
 ## [13B Models](https://drive.google.com/drive/folders/1kTKfVn0nvYdv7IsUOQbpGWc_1SMP15wn)
-Settings presets created in NovelAI for the Euterpe model.
+Settings presets created in NovelAI for the Euterpe model. <br>
+Note: These presets are only suitable for KoboldAI's models trained on Fairseq-Dense.
 | Name | Description |
 | --- | --- |
 | Genesis | Stable and logical, but with scattered creativity. |
@@ -31,26 +33,26 @@ Settings presets created in NovelAI for the Euterpe model.
 | Pro Writer | Optimal setting for readability, based on AI-powered mass statistical analysis of Euterpe output. |
 ## [Custom Presets](https://drive.google.com/drive/folders/1BFZZY5-lunsZYvtJ9vstiBkH8FY6uj-0)
 Settings presets created by NovelAI users.
-| Name | Model |
-| --- | --- |
-| Aces High | 20B |
-| Swansong | 13B |
-| Co-Writer | 13B |
-| Damn Decent | 13B |
-| Decadence | 20B |
-| Emerald | 13B |
-| Fever Dreams | 13B |
-| Gojira | 13B |
-| Lycaenidae | 13B |
-| Monarch | 13B |
-| Monkey Business | 6B-13B |
-| Mothra | 6B-13B |
-| Necromancer | 20B |
-| Nymphalidae | 13B |
-| Red Viper | 20B |
-| Top Gun | 20B |
-| Trust | 13B |
-| Weaver | 13B |
+| Name | Model | Model Format |
+| --- | --- | --- |
+| Aces High | 20B | Neo-X 20B |
+| Swansong | 13B | Fairseq-Dense |
+| Co-Writer | 13B | Fairseq-Dense |
+| Damn Decent | 13B | Fairseq-Dense |
+| Decadence | 20B | Neo-X 20B |
+| Emerald | 13B | Fairseq-Dense |
+| Fever Dreams | 13B | Fairseq-Dense |
+| Gojira | 13B | Fairseq-Dense |
+| Lycaenidae | 13B | Fairseq-Dense |
+| Monarch | 13B | Fairseq-Dense |
+| Monkey Business | 6B-13B | GPT-J-Fairseq-Dense |
+| Mothra | 6B-13B | GPT-J-Fairseq-Dense |
+| Necromancer | 20B | Neo-X 20B |
+| Nymphalidae | 13B | Fairseq-Dense |
+| Red Viper | 20B | Neo-X 20B |
+| Top Gun | 20B | Neo-X 20B |
+| Trust | 13B | Fairseq-Dense |
+| Weaver | 13B | Fairseq-Dense |
 ## [Original Presets](https://drive.google.com/drive/folders/1DU0jXN8TtDEpPVZAlEn7ZsYYhh0io4qa)
 Settings presets created by KoboldAI users.
 | Name | Author | Model | Description |
