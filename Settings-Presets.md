@@ -29,11 +29,33 @@ Settings presets created in NovelAI for the Euterpe model.
 | Low Rider | Reliable, aimed at story development. |
 | Morpho | Let the AI generate without constraints. |
 | Pro Writer | Optimal setting for readability, based on AI-powered mass statistical analysis of Euterpe output. |
+## [Custom Presets](https://drive.google.com/drive/folders/1BFZZY5-lunsZYvtJ9vstiBkH8FY6uj-0)
+Settings presets created by NovelAI users.
+| Name | Model |
+| --- | --- |
+| Aces High | 20B |
+| Swansong | 13B |
+| Co-Writer | 13B |
+| Damn Decent | 13B |
+| Decadence | 20B |
+| Emerald | 13B |
+| Fever Dreams | 13B |
+| Gojira | 13B |
+| Lycaenidae | 13B |
+| Monarch | 13B |
+| Monkey Business | 6B-13B |
+| Mothra | 6B-13B |
+| Necromancer | 20B |
+| Nymphalidae | 13B |
+| Red Viper | 20B |
+| Top Gun | 20B |
+| Trust | 13B |
+| Weaver | 13B |
 ## [Original Presets](https://drive.google.com/drive/folders/1DU0jXN8TtDEpPVZAlEn7ZsYYhh0io4qa)
 Settings presets created by KoboldAI users.
 | Name | Author | Model | Description |
 | --- | --- | --- | --- |
-| Godlike | Chasm | OPT and FSD 13B | Makes AI give a descriptive and sensual output. |
+| Godlike | Chasm | OPT-FSD 13B | Makes AI give a descriptive and sensual output. |
 | Light Breeze | xen0 | Skein 6B | Staying on track, not complex stories, directing the plot yourself. |
 | Mayday | xen0 | Adventure 6B | Wacky plot, creativity from AI, crazy stories you want AI to weird out. |
 | Good Winds | xen0 | Skein 6B | Let AI direct the plot, but still stay logical. |
