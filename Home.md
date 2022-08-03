@@ -31,7 +31,8 @@ If you would like to play KoboldAI online for free on a powerful computer you ca
 
 Each edition features different models and requires different hardware to run, this means that if you are unable to obtain a TPU or a GPU you might still be able to use the other version. The models you can use are listed underneath the edition. To open a Colab click the big link featuring the editions name.
 
-[Click here for the TPU Edition Colab](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/TPU.ipynb)/[Click here for the GPU Edition Colab](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/GPU.ipynb)<br>
+**[Click here for the TPU Edition Colab](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/TPU.ipynb)**<br>
+**[Click here for the GPU Edition Colab](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/GPU.ipynb)**
 
 ## Install KoboldAI on your own computer
 ### Installing KoboldAI offline bundle on Windows 7
