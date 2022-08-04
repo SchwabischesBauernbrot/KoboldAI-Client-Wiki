@@ -7,8 +7,8 @@ A: Token is a piece of word (about 3-4 characters) or a whole word. Tokens are e
 Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
 
-Q: How are models made?<br>
-A: They take a large amount of text from stories and stuff, then run the program through a special training protocol to make sure it can spit out generated text without it basically being just ripped out of the pre-established text.
+Q: How long do models take to load?<br>
+A: It depends on the size of the model. The bigger the model, the longer the loading time. On average, 2.7B models take 5 minutes to load, 6B models take 10 minutes, and 13B models take 15 minutes.
 
 Q: What are 2.7B, 6B, 13B, 20B?<br>
 A: These are the sizes of AI models, measured in billions of parameters. Accordingly, 2.7B = 2.7 billion-parameter, 6B = 6 billion-parameter, 13B = 13 billion-parameter, 20B = 20 billion-parameter.
@@ -16,8 +16,23 @@ A: These are the sizes of AI models, measured in billions of parameters. Accordi
 Q: What are the differences between 2.7B, 6B, 13B, 20B models?<br>
 A: In short, the coherence of the output. Its basically how big the AI's brain is. Example: Imagine the brain off a child versus the brain of an adult. You can teach them the exact same thing and they can do the exact same thing. However, the adult brain will learn it better. So the bigger the models size (the number of billion-paramater), the better the model's understanding of your input.
 
-Q: How long do models take to load?<br>
-A: It depends on the size of the model. The bigger the model, the longer the loading time. On average, 2.7B models take 5 minutes to load, 6B models take 10 minutes, and 13B models take 15 minutes.
+Q: How are models made?<br>
+A: They take a large amount of text from stories and stuff, then run the program through a special training protocol to make sure it can spit out generated text without it basically being just ripped out of the pre-established text.
+
+Q: Why are there several models with the same name but different size (in billion-parameter)?<br>
+A: Roughly speaking, a finetuned model (a model that is not generic) is trained on datasets. Therefore, datasets can be applied to train models with any number of billion-parameters. Thus, a dataset that is used in a Nerys model, for example, can be "fed" to a generic 2.7B model to get a Nerys 2.7B model.
+
+Q: What is a finetuned model? How is it different from a generic one?<br>
+A: A finetuned model is a generic model that has been "fed" a certain dataset and then edited manually. Generic model is the original model. It is not trained for anything specific. As an example, imagine that generic model is a blank sheet of paper on which you can paint a new picture with colors (dataset) and a stroke of the brush (finetune). For this reason, it can be used to train finetuned models. Using one generic model, you can train many finetuned models.
+
+Q: What is a dataset?<br>
+A: A dataset is a collection of text files. The texts can be anything from fanfiction to science fiction. It all depends on the purpose for which the dataset is used. For example, if you want to train models for NSFW content, then the dataset will be the appropriate material (18+ stories).
+
+Q: What is finetune?<br>
+A: Finetune is the process by which a model author edits the contents of the dataset used to train the model. This may be necessary to fix problems in the model's text output (for example, problems with text formatting).
+
+Q: Can I create my own model if I have an idea for it and a suitable dataset?<br>
+A: Yes, you can. But you need a lot of processing power to do that. Without going into detail, the model training process is done on the GPUs. You will need to use a huge amount of them. As an example, total training time for Sberbank's ruGPT-3 Large model was around 14 days on 128 GPUs for 1024 context and few days on 16 GPUs for 2048 context (considering that this is far from being the largest AI model).
 
 Q: What are the official and united versions? What are the differences between them?<br>
 A: The official version is a more or less stable version of KoboldAI. The united version is an experimental version of KoboldAI, less stable, but with a number of features that will then sooner or later be ported to the official version.
@@ -55,6 +70,9 @@ A: It switches to story if you dont have a prompt typed up yet.
 ## Colab
 Q: What is Colab?<br>
 A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
+
+Q: Do I need to register for Colab somehow?<br>
+A: Yes, to use Colab, you need a Google Account and Google Drive connected to it (given automatically with each account).
 
 Q: Why do we use Colab to run KoboldAI?<br>
 A: Colab is currently the only way (except for Kaggle) to get the free computing power needed to run models in KoboldAI.
