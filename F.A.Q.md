@@ -23,7 +23,7 @@ Q: Why are there several models with the same name but different size (in billio
 A: Roughly speaking, a finetuned model (a model that is not generic) is trained on datasets. Therefore, datasets can be applied to train models with any number of billion-parameters. Thus, a dataset that is used in a Nerys model, for example, can be "fed" to a generic 2.7B model to get a Nerys 2.7B model.
 
 Q: What is a finetuned model? How is it different from a generic one?<br>
-A: A finetuned model is a generic model that has been "fed" a certain dataset and then edited manually. Generic model is the original model. It is not trained for anything specific. As an example, imagine that generic model is a blank sheet of paper on which you can paint a new picture with colors (dataset) and a stroke of the brush (finetune). For this reason, it can be used to train finetuned models. Using one generic model, you can train many finetuned models.
+A: A finetuned model is a generic model that has been "fed" a certain dataset and then edited manually. Generic model is the original model. It is not trained for anything specific. As an example, imagine that generic model is a blank sheet of paper on which you can paint a new picture with colors (dataset) and a stroke of the brush (finetune). For this reason, it can be used to train finetuned models. Using one generic model, you can train many finetuned models by giving it different datasets.
 
 Q: What is a dataset?<br>
 A: A dataset is a collection of text files. The texts can be anything from fanfiction to science fiction. It all depends on the purpose for which the dataset is used. For example, if you want to train models for NSFW content, then the dataset will be the appropriate material (18+ stories).
