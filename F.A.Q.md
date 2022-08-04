@@ -32,7 +32,7 @@ Q: What is finetune?<br>
 A: Finetune is the process by which a model author edits the contents of the dataset used to train the model. This may be necessary to fix problems in the model's text output (for example, problems with text formatting).
 
 Q: Can I create my own model if I have an idea for it and a suitable dataset?<br>
-A: Yes, you can. But you need a lot of processing power to do that. Without going into detail, the model training process is done on the GPUs. You will need to use a huge amount of them. As an example, total training time for Sberbank's ruGPT-3 Large model was around 14 days on 128 GPUs for 1024 context and few days on 16 GPUs for 2048 context (considering that this is far from being the largest AI model).
+A: Yes, you can. However, you will need a lot of processing power to do that. Without going into detail, the model training process is done on the GPUs. You will need to use a huge amount of them. As an example, total training time for Sberbank's ruGPT-3 Large model was around 14 days on 128 GPUs for 1024 context and few days on 16 GPUs for 2048 context (considering that this is far from being the largest AI model).
 
 Q: What are the official and united versions? What are the differences between them?<br>
 A: The official version is a more or less stable version of KoboldAI. The united version is an experimental version of KoboldAI, less stable, but with a number of features that will then sooner or later be ported to the official version.
