@@ -33,26 +33,26 @@ Note: These presets are only suitable for KoboldAI's models trained on Fairseq-D
 | Pro Writer | Optimal setting for readability, based on AI-powered mass statistical analysis of Euterpe output. |
 ## [Custom Presets](https://drive.google.com/drive/folders/1BFZZY5-lunsZYvtJ9vstiBkH8FY6uj-0)
 Settings presets created by NovelAI users.
-| Name | Model Size | Model Format | Compatible KAI Models |
-| --- | --- | --- | --- |
-| Aces High | 20B | Neo-X 20B | Neo(X) |
-| Swansong | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Co-Writer | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Damn Decent | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Decadence | 20B | Neo-X 20B | Neo(X) |
-| Emerald | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Fever Dreams | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Gojira | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Lycaenidae | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Monarch | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Monkey Business | 6B-13B | GPT-J-Fairseq-Dense | Skein, Adventure, Lit, GPT-J-6B - Nerys, Janeway, Shinen, Fairseq Dense |
-| Mothra | 6B-13B | GPT-J-Fairseq-Dense | Skein, Adventure, Lit, GPT-J-6B - Nerys, Janeway, Shinen, Fairseq Dense |
-| Necromancer | 20B | Neo-X 20B | Neo(X) |
-| Nymphalidae | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Red Viper | 20B | Neo-X 20B | Neo(X) |
-| Top Gun | 20B | Neo-X 20B | Neo(X) |
-| Trust | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
-| Weaver | 13B | Fairseq-Dense | Nerys, Janeway, Shinen, Fairseq Dense |
+| Name | Compatible KAI Models |
+| --- | --- |
+| Aces High | Neo(X) (20B) |
+| Swansong | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Co-Writer | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Damn Decent | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Decadence | Neo(X) (20B) |
+| Emerald | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Fever Dreams | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Gojira | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Lycaenidae | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Monarch | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Monkey Business | Skein, Adventure, Lit, GPT-J-6B (6B) - Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Mothra | Skein, Adventure, Lit, GPT-J-6B (6B) - Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Necromancer | Neo(X) (20B) |
+| Nymphalidae | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Red Viper | Neo(X) (20B) |
+| Top Gun | Neo(X) (20B) |
+| Trust | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Weaver | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
 ## [Original Presets](https://drive.google.com/drive/folders/1DU0jXN8TtDEpPVZAlEn7ZsYYhh0io4qa)
 Settings presets created by KoboldAI users.
 | Name | Author | Model | Description |
