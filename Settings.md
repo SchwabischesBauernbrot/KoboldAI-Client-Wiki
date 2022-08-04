@@ -59,11 +59,10 @@ Top-p sampling, also known as nucleus sampling,<sup name="_nucleus-sampling-name
 
 The top-p value must be greater than or equal to 0 and less than or equal to 1. Top-p sampling can be disabled by setting it to 1.
 
-We first use the softmax function to convert the logits into probabilities. Then, we keep as many tokens as possible such that all three of these rules are satisfied (by leaving the logits of the kept tokens unmodified and setting the logits of the other tokens to negative infinity):
+We first use the softmax function to convert the logits into probabilities. Then, we keep as many tokens as possible such that both of these rules are satisfied (by leaving the logits of the kept tokens unmodified and setting the logits of the other tokens to negative infinity):
 
-* The token with the largest probability must always be kept. If there are multiple highest probability tokens, then an arbitrary one out of those must be kept.
 * If a token is not kept, then all of the tokens with probability lower than its probability must also not be kept.
-* The sum of the probabilities of the kept tokens must not exceed the top-p value.
+* The sum of the probabilities of the kept tokens must not exceed the top-p value, unless the highest probability is greater than the top-p value, in which case the token with the largest probability must always be kept (if there are multiple highest probability tokens then we pick an arbitrary one out of those) and all of the other tokens must not be kept.
 
 Lower top-p values cause fewer tokens to be kept. Setting the top-p value to 0 is equivalent to greedy search.
 
