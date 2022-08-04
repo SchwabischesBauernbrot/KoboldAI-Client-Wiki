@@ -29,7 +29,7 @@ Q: What is a dataset?<br>
 A: A dataset is a collection of text files. The texts can be anything from fanfiction to science fiction. It all depends on the purpose for which the dataset is used. For example, if you want to train a model for NSFW content (which is biased toward this type of content), then the dataset will be the appropriate material (18+ stories).
 
 Q: What is finetune?<br>
-A: Finetune is the process by which a model author loads the dataset in a model, train it and then edits the contents of the dataset used to train the model. This may be necessary to fix problems in the model's text output (for example, problems with text formatting). Thus, by finetuning the author of the model makes it biased towards anything specific and corrects flaws that appeared after the end of the model training process.
+A: Finetune is the process by which a model author loads the dataset in a model, train it and then edits the resulting model. This may be necessary to fix problems in the model's text output (for example, problems with text formatting). Thus, by finetuning the author of the model makes it biased towards anything specific and corrects flaws that appeared after the end of the model training process.
 
 Q: Can I create my own model if I have an idea for it and a suitable dataset?<br>
 A: Yes, you can. However, you will need a lot of processing power to do that. Without going into detail, the model training process is done on the GPUs. You will need to use a huge amount of them. As an example, total training time for Sberbank's ruGPT-3 Large model was around 14 days on 128 GPUs for 1024 context and few days on 16 GPUs for 2048 context (considering that this is far from being the largest AI model).
