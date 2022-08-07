@@ -145,7 +145,7 @@ A: Yes, that will exit the program.
 ## Colab Errors
 
 Q: How do I fix the error "TPU Execute is taking a long time. This might be due to a deadlock between multiple TPU cores or a very slow program"?<br>
-A: Sometimes you can get faulty TPU. Go to Runtime -> Sessions and then end all sessions you can get a new one.
+A: Sometimes you can get faulty TPU. Go to Runtime -> Sessions and then end all sessions so you can get a new one.
 
 ## Local Errors
 
