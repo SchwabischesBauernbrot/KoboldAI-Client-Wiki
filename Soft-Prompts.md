@@ -40,3 +40,5 @@ If you open up one of KoboldAI's soft prompt zip files, you will see a file call
 
 ## Creating your own
 You can use this [Easy Softprompt Tuner](https://henk.tech/softtuner) to create your own soft prompt. However, you must select/create a dataset before doing this. For formatting the dataset for softprompt training you can use this [Dumb text reformatter for NovelAI modules](https://ermela.net/dumb-reformatter/).
+
+Note: If one wants to train a softprompt for a finetuned version of a model made for KoboldAI, one should train the softprompt for the core model of equal parameter size; some core models are listed on https://huggingface.co/KoboldAI, as well as https://huggingface.co/EleutherAI; best practice is to train softprompts on core models of equivalent parameter size (for instance if one wanted to make a softprompt for KoboldAI/fairseq-dense-2.7B-Nerys, the core model would be KoboldAI/fairseq-dense-2.7B).
