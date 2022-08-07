@@ -67,6 +67,24 @@ A: Adventure mode has two modes: Mode: Story and Mode: Adventure. Mode: Story di
 Q: Does it switch only after entering the initial prompt?<br>
 A: It switches to story if you dont have a prompt typed up yet.
 
+Q: How do the samplers change the probabilities?<br>
+A: The samplers mostly just set the probabilities of some tokens to 0% and then shift the remaining ones up a tiny bit to fill the gap. It doesn't change the ordering of the tokens.
+
+Q: What is a settings preset?<br>
+A: A list of settings values that differ from the default ones.
+
+Q: Why do we need settings presets when we have default settings?<br>
+A: Because of their different purposes. The default settings are best optimized for use with different models. The settings presets are used to achieve different results by influencing the AI text output generation.
+
+Q: Can I use settings presets created for 13B models on 6B models, for example?<br>
+A: No, as the presets were created for a specific model format. The 13B model format (Fairseq Dense) does not match the 6B model format (GPT-J-6B). Thus, the effect will not be the same, even though the presets will work even on unsuitable model formats.
+
+Q: What is a model format?<br>
+A: This is the designation of the initial model, which was used to create other models. For example, the Fairseq Dense was used as the initial model to train all other 13B models in KoboldAI, GPT-J-6B to train 6B models and GPT-Neo-2.7B to train all the 2.7B models.
+
+Q: Can I create a settings preset?<br>
+A: Yes, you can. Settings presets are created by changing the value of settings, turning them off or on, and changing the samplers order. To get your settings preset into the list of original presets created for KoboldAI, write to the appropriate channel in Discord, making sure to include the name and description of the preset.
+
 ## Colab
 Q: What is Colab?<br>
 A: Google Colaboratory (or Colab for short) is a free environment to write code in jupyter notebook. The program provides access to GPUs (Graphics Processing Unit) and TPUs (Tensor Processing Unit).
