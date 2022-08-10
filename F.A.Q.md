@@ -105,7 +105,7 @@ Q: What are the differences between Cloudflare and Localtunnel?<br>
 A: Cloudflare is a company. Their servers are often blocked by antivirus, so if you want to run KoboldAI with this provider, be sure to exclude the link from your antivirus. Example: Exceptions -> Add Exception -> *https://.tryclouddflare.com/*. Localtunnel is a one guy. His servers are less stable (may be unavailable more often), but they are not blocked by antivirus.
 
 Q: I am getting an Argo Tunnel error when I click the Cloudflare link generated after the model loading is complete. What should I do?<br>
-A: Wait a while and reload the page. Repeat until the KoboldAI Client page appears instead of the Error 1033 page.
+A: Wait a while and reload the page. Repeat until the KoboldAI Client page appears instead of the Error 1033 page. If that didn't work, then pause the code execution and restart the model download to make the new Cloudflare link appear.
 
 Q: What are the differences between the GPU and TPU versions of KoboldAI?<br>
 A: In order to work, AI models must run on the GPU or TPU. It is possible to run models from 1.3B (and smaller) to 6B on the free GPU available from Colab. Bigger models, from 6B up to 20B (the maximum you can run in Colab), can only be run on a TPU. This is due to GPU restrictions imposed by Colab developers. So the answer is: The size of the models you can run on the GPU and TPU versions.
