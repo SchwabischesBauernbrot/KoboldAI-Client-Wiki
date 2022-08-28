@@ -59,6 +59,12 @@ Rule 5("Pigeons can't be trusted.")<br>
 }]<br>
 </details>
 
+<details>
+  <summary>Entry form</summary>
+<br>
+[Type("Name"){Attribute("Val 1" + "Val 2")}]
+<br>
+</details>
 
 ### SBF
 Language models influenced by SBF are Meta's XGLM and Fairseq-dense series models.
@@ -82,6 +88,13 @@ Fact 1("Every time someone tries to watch television the power goes out.")<br>
 </details>
 
 Essentially telling the AI "This is always how things work" vs the more directive "You will follow these rules" from the earlier example.
+
+<details>
+  <summary>Entry form</summary>
+<br>
+[ Type: "Name"; Attribute: "Val 1", "Val 2" ]
+<br>
+</details>
 
 ## Pseudocode Tips
 
