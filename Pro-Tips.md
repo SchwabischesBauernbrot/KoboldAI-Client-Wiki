@@ -43,24 +43,6 @@ Gender("Male")<br>
 Age("37")<br>
 }]
 </details>
-
-W++ appears to have a great influence on instructing an AI how to behave. 
-
-<details>
-  <summary>Entry example</summary>
-<br>  
-The example below, when pasted in memory while using a Neo or relevant model, can show how the entire generation behavior of the AI can be altered:<br>
-<br>
-[Universally Applicable Rules("Undeniable Non-Negotiable Top Priority")<br>
-{<br>
-Rule 1("Every time someone tries to watch television the power goes out.")<br>
-Rule 2("Everyone is highly paranoid about how their hair looks.")<br>
-Rule 3("At rare times a clown will knock on the front door. If someone answers the front door when that happens, there is no telling what horrors will follow.")<br>
-Rule 4("Every mirror is a portal to another world.")<br>
-Rule 5("Pigeons can't be trusted.")<br>
-}]<br>
-</details>
-
 <details>
   <summary>Entry form</summary>
 <br>
@@ -78,18 +60,6 @@ Let's say I'm using a Fairseq model and having the same issue as the W++ example
 <br>
 [ I am: "Edward"; Husband of: "Charlotte"; Father of: "Clara", "Benny"; Gender: "Male"; Age: "37" ]<br>
 </details>
-
-Of course other wording and experimentation for a global ruleset can be tried, such as:<br>
-<details>
-  <summary>Entry example</summary>
-<br>  
-[Urgent Facts About The World("Applicable At All Times")<br>
-{<br>
-Fact 1("Every time someone tries to watch television the power goes out.")<br>
-}]<br>
-</details>
-
-Essentially telling the AI "This is always how things work" vs the more directive "You will follow these rules" from the earlier example.
 
 <details>
   <summary>Entry form</summary>
