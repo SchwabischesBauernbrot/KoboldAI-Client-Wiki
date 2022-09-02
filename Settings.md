@@ -163,7 +163,7 @@ We have found repetition penalty to be essential for creative story generation. 
 
 NovelAI users may be confused at the range of repetition penalty values used in KoboldAI. This is because NovelAI internally scales the repetition penalty value to provide a consistent range for all models. KoboldAI does not in order to allow users more control and to maintain consistency with other platforms.
 
-Repetition penalty is always applied before all of KoboldAI's samplers. This behaviour cannot be changed at this time.
+Repetition penalty is nromaly applied before all of KoboldAI's samplers. This behaviour can be changed using the sampling order in 1.19 and beyond.
 
 KoboldAI also inherited repetition penalty slope and repetition penalty range from Clover Edition. If *both* of these settings are not equal to 0, this makes it so that the repetition penalty value is different depending on where the token appeared in the story relative to the end of the story. Refer to [this Desmos widget](https://www.desmos.com/calculator/iui9ldyhwg), which shows a graph with the number of tokens relative to the end of the story (0 means the last token, 1 means the second-last token, etc.) on the x-axis and the repetition penalty on the y-axis. Tokens with a position further from the end of the story than the repetition penalty range are not considered. If a token appears more than once in the story, the token's effective repetition penalty value is calculated based on the last occurrence of that token (the occurrence closest to the end of the story).
 
