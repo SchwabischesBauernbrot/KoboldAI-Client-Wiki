@@ -5,7 +5,7 @@ The names and descriptions are taken from NovelAI. For the custom presets, there
 
 ## [6B Models](https://drive.google.com/drive/folders/1mXG126USSEfJmd444QgGMgGQScABAPou)
 The settings presets created in NovelAI for the Sigurd model. <br>
-Note: These presets are mostly suitable for KoboldAI's models trained on GPT-J (Skein, Adventure, Lit, GPT-J-6B).
+Note: These presets are mostly suitable for KoboldAI models trained on GPT-J (Skein, Adventure, Lit, GPT-J-6B).
 
 | Name | Description |
 | --- | --- |
@@ -18,7 +18,7 @@ Note: These presets are mostly suitable for KoboldAI's models trained on GPT-J (
 | Pleasing Results | Expectable output with alternative context settings. |
 ## [13B Models](https://drive.google.com/drive/folders/1kTKfVn0nvYdv7IsUOQbpGWc_1SMP15wn)
 Settings presets created in NovelAI for the Euterpe model. <br>
-Note: These presets are mostly suitable for KoboldAI's models trained on Fairseq-Dense (Nerys, Janeway, Shinen, Fairseq Dense).
+Note: These presets are mostly suitable for KoboldAI models trained on Fairseq-Dense (Nerys, Janeway, Shinen, Fairseq Dense).
 | Name | Description |
 | --- | --- |
 | Genesis | Stable and logical, but with scattered creativity. |
