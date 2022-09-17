@@ -33,7 +33,7 @@ Note: These presets are mostly suitable for KoboldAI models trained on Fairseq-D
 | Pro Writer | Optimal setting for readability, based on AI-powered mass statistical analysis of Euterpe output. |
 ## [Custom Presets](https://drive.google.com/drive/folders/1BFZZY5-lunsZYvtJ9vstiBkH8FY6uj-0)
 Settings presets created by NovelAI users.
-| Name | Compatible KAI Models |
+| Name | Compatible KoboldAI Models |
 | --- | --- |
 | Aces High | Neo(X) (20B) |
 | Swansong | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
