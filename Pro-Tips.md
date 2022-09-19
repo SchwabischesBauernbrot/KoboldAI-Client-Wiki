@@ -183,6 +183,31 @@ BANNED/BANN: ( Forbidden behavior )<br>
 
 | Name | Description |
 | --- | --- |
+| Character/animal/monster categories | Some repeats but the most essential character categories that have been noted by the community. |
+
+<details>
+  <summary>Illustrative example</summary>
+<br>  
+DESCRIPTION:  ( IE female/male, tall/short, big/little, human/elf, animal/monster )<br>  
+APPEARANCE:  ( Things like hair/eye/skin colour or claws, fur, etc. )<br>  
+MIND:                 ( Psychological things like kind, cruel, aggressive, helpful, shy, moody, polite, etc. )<br>  
+WEAR:                ( Clothing or apparel coats, socks, shoes, backpack, hat )<br>  
+STATUS:             ( Where is the character and what predicament are they in: Trapped in a dungeon )<br>  
+CONDITION:    ( The state of the character/monster/animal such as very strong but tired, a few cuts and bruises, arrow in the knee, decaying, worse for wear, etc. )<br>  
+SPEECH:             ( None, cockney accent, Japanese, British accent, vulgar, squeak, roar, bark, etc. )<br>  
+POWER:             ( Special traits or powers ie ability to fly )<br>  
+GRAB:                ( To define what is used to grab ie mouth/bite, claws, tentacles )<br>  
+MOVE:               ( Movement such as walk, run, crawl, slither, swim, scuttle, creep )<br>  
+LIMIT:                ( What is lacking such as sight/blind, hands for animals, speech. etc. )<br>  
+INVENTORY:    ( Items on the character, gun, bow, sword, knife, whip, bottle of absolute vodka, etc. )<br>  
+SUMMARY:     ( Here you can describe the character in a sentence ie Cov is a nerd who spends far too much time on KoboldAI )<br>  
+<br>
+</details>
+
+## Commands Tips
+
+| Name | Description |
+| --- | --- |
 | Common categories | List of common categories to throw inside Author's Notes: author, writing style, genre, theme, setting, scene, format, goal, situation, storyline. |
 
 <details>
@@ -237,29 +262,6 @@ titillating: Marked increase in characters who are described as having 'perfect'
 literotica: Flowery erotica with a dash of purple prose.<br>
 arousing: Makes the NSFW scenes more descriptive, and tends to slow them down a bit.<br>
 hentai: Explicit, but has the side-effect of frequently adding tentacles.<br>
-<br>
-</details>
-
-| Name | Description |
-| --- | --- |
-| Character/animal/monster categories | Some repeats but the most essential character categories that have been noted by the community. |
-
-<details>
-  <summary>Illustrative example</summary>
-<br>  
-DESCRIPTION:  ( IE female/male, tall/short, big/little, human/elf, animal/monster )<br>  
-APPEARANCE:  ( Things like hair/eye/skin colour or claws, fur, etc. )<br>  
-MIND:                 ( Psychological things like kind, cruel, aggressive, helpful, shy, moody, polite, etc. )<br>  
-WEAR:                ( Clothing or apparel coats, socks, shoes, backpack, hat )<br>  
-STATUS:             ( Where is the character and what predicament are they in: Trapped in a dungeon )<br>  
-CONDITION:    ( The state of the character/monster/animal such as very strong but tired, a few cuts and bruises, arrow in the knee, decaying, worse for wear, etc. )<br>  
-SPEECH:             ( None, cockney accent, Japanese, British accent, vulgar, squeak, roar, bark, etc. )<br>  
-POWER:             ( Special traits or powers ie ability to fly )<br>  
-GRAB:                ( To define what is used to grab ie mouth/bite, claws, tentacles )<br>  
-MOVE:               ( Movement such as walk, run, crawl, slither, swim, scuttle, creep )<br>  
-LIMIT:                ( What is lacking such as sight/blind, hands for animals, speech. etc. )<br>  
-INVENTORY:    ( Items on the character, gun, bow, sword, knife, whip, bottle of absolute vodka, etc. )<br>  
-SUMMARY:     ( Here you can describe the character in a sentence ie Cov is a nerd who spends far too much time on KoboldAI )<br>  
 <br>
 </details>
 
