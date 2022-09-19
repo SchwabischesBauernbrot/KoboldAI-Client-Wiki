@@ -214,54 +214,54 @@ SUMMARY:     ( Here you can describe the character in a sentence ie Cov is a ner
   <summary>Illustrative example</summary>
 <br>
 SFW-focused<br>
-narrative: Increased detail for narrative. Longer paragraphs with deeper descriptions.<br>
-verbose: Strong effect. Longer descriptions, with more dialogue. Slows down scenes a bit.<br>
-vivid: Purple prose, focus on descriptions. May be too vivid for normal usage. Combines well with more balanced styles.<br>
-prose: Compromise between 'detailed' and 'purple prose'. AI seems more inclined to try to write a story, instead of just random disjointed things.<br>
-energetic: Similar to 'exciting', but this has even more of an action-movie feel to it.<br>
-tense: Dramatic, action-movie style.<br>
-dramatic: Feels more like action-drama than emotional drama.<br>
-ominous: Strong effect. Foreboding events and dialogue, works especially well combined with 'narrative'.<br>
-aggressive: Notable increase in aggression and violence.<br>
-ominous: Strong effect. Foreboding events and dialogue, works especially well combined with 'narrative'.<br>
-bitter: Crude, angry dialogue. Teen angst. Not the world-weary type of bitterness.<br>
-scary: Strong effect. Focuses more on tension than blatant horror.<br>
-creepy: Strong effect. Now we're in the horror-territory.<br>
-grim: Strong effect. Impossible odds, grim situations.<br>
-blasphemous: Strong effect. Demonic magic, cults, etc. Nice for eldritch horror type of scenarios.<br>
-exploration: Strong effect. Has nice dungeon delving mood to it, with overtones of mystery.<br>
-introspective: Increased focus on protagonists' inner thoughts and feelings.<br>
-pensive: Inner monologue. Makes the protagonist think more. Describes protagonists' motivations in detailed, contemplative way.<br>
-macabre: Grim and grisly. Generated mostly occult horror, with frequent apocalyptic themes.<br>
-gritty: Violent style, with a lot of cursing and increased amount of gore. Doesn't markedly. <br>
-purple prose: Often too elaborate. It might be possible to combine this with other styles to balance it a bit.<br>
-sophomoric: Casual and somewhat crude style. `Zack and the boys were down at the beach,<br>
-lovecraftian: Eldritch horrors, one part Lovecraft and one part fanfiction of varying quality.<br>
-fairy tale: Self-explanatory. Works quite well. `Once upon a time, there was a girl...<br>
-film noir: Strong effect. Fatalism, dingy realism, corruption, and long inner monologues.<br>
-investigative: Heavy focus on detective-fiction. Combines well with 'film-noir'.<br>
-medical: Strong effect, adds medical terminology and focus.<br>
-rustic: Shifted the story focus to farming, village/rural life, that kind of things.<br>
-military: Strong effect, military fiction focus with heavy slant towards land-battles.<br>
-pirate: Strong effect, makes everything pirate-focused.<br>
-dark fantasy: Dark, brooding tone with fantasy elements.<br>
-tragic: Heavy focus on loss, heroic sacrifices and other similar themes.<br>
-Greek tragedy: Bronze age adventures, with frequent references to Zeus, titans, etc.<br>
-desertpunk: The Mad Max style. Somewhat weak, but mentioning sand will usually trigger it.<br>
-space opera: Science Fiction. Grand adventures across alien worlds, combines well with many styles.<br>
-SF: Generic sci-fi focus, useful for making the AI stick to the genre.<br>
-police report: Written police report style. "On March 7th, at approximately 1345 hours, Zachery..."<br>
-gallows: I was hoping for gallows humor. Nope, this is entirely focused around gallows.<br>
+**narrative:** Increased detail for narrative. Longer paragraphs with deeper descriptions.<br>
+**verbose:** Strong effect. Longer descriptions, with more dialogue. Slows down scenes a bit.<br>
+**vivid:** Purple prose, focus on descriptions. May be too vivid for normal usage. Combines well with more balanced styles.<br>
+**prose:** Compromise between 'detailed' and 'purple prose'. AI seems more inclined to try to write a story, instead of just random disjointed things.<br>
+**energetic:** Similar to 'exciting', but this has even more of an action-movie feel to it.<br>
+**tense:** Dramatic, action-movie style.<br>
+**dramatic:** Feels more like action-drama than emotional drama.<br>
+**ominous:** Strong effect. Foreboding events and dialogue, works especially well combined with 'narrative'.<br>
+**aggressive:** Notable increase in aggression and violence.<br>
+**ominous:** Strong effect. Foreboding events and dialogue, works especially well combined with 'narrative'.<br>
+**bitter:** Crude, angry dialogue. Teen angst. Not the world-weary type of bitterness.<br>
+**scary:** Strong effect. Focuses more on tension than blatant horror.<br>
+**creepy:** Strong effect. Now we're in the horror-territory.<br>
+**grim:** Strong effect. Impossible odds, grim situations.<br>
+**blasphemous:** Strong effect. Demonic magic, cults, etc. Nice for eldritch horror type of scenarios.<br>
+**exploration:** Strong effect. Has nice dungeon delving mood to it, with overtones of mystery.<br>
+**introspective:** Increased focus on protagonists' inner thoughts and feelings.<br>
+**pensive:** Inner monologue. Makes the protagonist think more. Describes protagonists' motivations in detailed, contemplative way.<br>
+**macabre:** Grim and grisly. Generated mostly occult horror, with frequent apocalyptic themes.<br>
+**gritty:** Violent style, with a lot of cursing and increased amount of gore. Doesn't markedly. <br>
+**purple prose:** Often too elaborate. It might be possible to combine this with other styles to balance it a bit.<br>
+**sophomoric:** Casual and somewhat crude style. `Zack and the boys were down at the beach,<br>
+**lovecraftian:** Eldritch horrors, one part Lovecraft and one part fanfiction of varying quality.<br>
+**fairy tale:** Self-explanatory. Works quite well. `Once upon a time, there was a girl...<br>
+**film noir:** Strong effect. Fatalism, dingy realism, corruption, and long inner monologues.<br>
+**investigative:** Heavy focus on detective-fiction. Combines well with 'film-noir'.<br>
+**medical:** Strong effect, adds medical terminology and focus.<br>
+**rustic:** Shifted the story focus to farming, village/rural life, that kind of things.<br>
+**military:** Strong effect, military fiction focus with heavy slant towards land-battles.<br>
+**pirate:** Strong effect, makes everything pirate-focused.<br>
+**dark fantasy:** Dark, brooding tone with fantasy elements.<br>
+**tragic:** Heavy focus on loss, heroic sacrifices and other similar themes.<br>
+**Greek tragedy:** Bronze age adventures, with frequent references to Zeus, titans, etc.<br>
+**desertpunk:** The Mad Max style. Somewhat weak, but mentioning sand will usually trigger it.<br>
+**space opera:** Science Fiction. Grand adventures across alien worlds, combines well with many styles.<br>
+**SF:** Generic sci-fi focus, useful for making the AI stick to the genre.<br>
+**police report:** Written police report style. "On March 7th, at approximately 1345 hours, Zachery..."<br>
+**gallows:** I was hoping for gallows humor. Nope, this is entirely focused around gallows.<br>
 NSFW-focused<br>
-sensual: More slanted towards explicit than 'sensual'.<br>
-seductive: Tends to make characters flirty. Better used as a character-specific trait.<br>
-lewd: Not especially lewd, slants the outputs towards softcore erotica.<br>
-kinky: Similar to the above, but more likely to throw in uncommon fetishes.<br>
-homoerotic: Marked increase in the amount of muscular men.<br>
-titillating: Marked increase in characters who are described as having 'perfect' bodies.<br>
-literotica: Flowery erotica with a dash of purple prose.<br>
-arousing: Makes the NSFW scenes more descriptive, and tends to slow them down a bit.<br>
-hentai: Explicit, but has the side-effect of frequently adding tentacles.<br>
+**sensual:** More slanted towards explicit than 'sensual'.<br>
+**seductive:** Tends to make characters flirty. Better used as a character-specific trait.<br>
+**lewd:** Not especially lewd, slants the outputs towards softcore erotica.<br>
+**kinky:** Similar to the above, but more likely to throw in uncommon fetishes.<br>
+**homoerotic:** Marked increase in the amount of muscular men.<br>
+**titillating:** Marked increase in characters who are described as having 'perfect' bodies.<br>
+**literotica:** Flowery erotica with a dash of purple prose.<br>
+**arousing:** Makes the NSFW scenes more descriptive, and tends to slow them down a bit.<br>
+**hentai:** Explicit, but has the side-effect of frequently adding tentacles.<br>
 <br>
 </details>
 
