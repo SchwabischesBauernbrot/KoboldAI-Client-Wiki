@@ -1,5 +1,6 @@
 ## Introduction
-A collection of frequently asked questions and answers to them. The answers are based on other users' experiences with KoboldAI, so they may not always be completely accurate.
+A collection of frequently asked questions and answers to them.<br>
+The answers are based on other users' experiences with KoboldAI, so they may not always be completely accurate.
 
 ## KoboldAI
 Q: What is a token?<br>
@@ -142,16 +143,6 @@ A: Download the [installer](https://sourceforge.net/projects/koboldai/files/late
 
 Q: Does it matter if I close the command window?<br>
 A: Yes, that will exit the program.
-
-## Colab Errors
-
-Q: How do I fix the error "TPU Execute is taking a long time. This might be due to a deadlock between multiple TPU cores or a very slow program"?<br>
-A: Sometimes you can get faulty TPU. Go to Runtime -> Sessions and then end all sessions so you can get a new one.
-
-## Local Errors
-
-Q: How do I fix the error ['subst' is not recognized as an internal or external command, operable program or batch file]?<br>
-A: This is solved by making sure [C:\Windows\System32] is set in the Path in environment variables for both user and system as the program can't find the subst.exe. To do this you have to go into system properties, then the advanced tab, then into the environment variables. Set the variable to [Path] if it doesn't already exist, then set the value to [C:\Windows\System32].
 
 ***
 
