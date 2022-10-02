@@ -1,4 +1,4 @@
-## TPU Models
+## [TPU Models](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/TPU.ipynb)
 | Model | Style | Description |
 | --- | --- | --- |
 | [Nerys](https://huggingface.co/KoboldAI/OPT-13B-Nerys-v2) by Mr Seeker | Novel/Adventure/Chatbot | Nerys is a hybrid model based on Pike (A newer Janeway), on top of the Pike dataset you also get some Light Novels, Adventure mode support and a little bit of Shinen thrown in the mix. The end result is a very diverse model that is heavily biased towards SFW novel writing, but one that can go beyond its novel training and make for an excellent adventure model to. Adventure mode is best played from a second person perspective, but can be played in first or third person as well. Novel writing can be done best from the first or third person. |
@@ -13,7 +13,7 @@
 | [Fairseq Dense](https://huggingface.co/KoboldAI/fairseq-dense-13B) by Facebook Researchers | Generic | Trained by Facebook Researchers this model stems from the MOE research project within Fairseq. This particular version has been converted by us for use in KoboldAI. It is known to be on par with the larger 20B model from EleutherAI and considered as better for pop culture and language tasks. Because the model has never seen a new line (enter) it may perform worse on formatting and paragraphing. |
 | [GPT-J-6B](https://huggingface.co/EleutherAI/gpt-j-6B) by EleutherAI | Generic | This model serves as the basis for most other 6B models (Some being based on Fairseq Dense instead). Being trained on the Pile and not biased towards anything in particular it is suitable for a variety of tasks such as writing, Q&A and coding tasks. You will likely get better result with larger generic models or finetuned models. |
 
-## GPU Models
+## [GPU Models](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/GPU.ipynb)
 | Model | Style | Description |
 | --- | --- | --- |
 | [Picard](https://huggingface.co/KoboldAI/GPT-Neo-2.7B-Picard) by Mr Seeker | Novel | Picard is a model trained for SFW Novels based on Neo 2.7B. It is focused on Novel style writing without the NSFW bias. While the name suggests a sci-fi model this model is designed for Novels of a variety of genre's. It is meant to be used in KoboldAI's regular mode. |
