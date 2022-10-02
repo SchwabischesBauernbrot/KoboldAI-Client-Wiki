@@ -5,7 +5,7 @@ This Wiki is maintained by KoboldAI's community based on their experience with t
 Nevertheless, the table below lists the users who have contributed the most to this Wiki.
 | Nickname | Role | Pages |
 | --- | --- | --- |
-| ebolam | Wiki creator | None |
+| ebolam | Wiki creator, Author | [KoboldAI vs AI Dungeon](https://github.com/KoboldAI/KoboldAI-Client/wiki/KoboldAI-vs-AI-Dungeon), [Memory, Author's Note and World Info](https://github.com/KoboldAI/KoboldAI-Client/wiki/Memory,-Author's-Note-and-World-Info) |
 | LightSaveUs | Wiki editor, Author | [Home](https://github.com/KoboldAI/KoboldAI-Client/wiki), [F.A.Q](https://github.com/KoboldAI/KoboldAI-Client/wiki/F.A.Q), [Models](https://github.com/KoboldAI/KoboldAI-Client/wiki/Models), [Pro Tips](https://github.com/KoboldAI/KoboldAI-Client/wiki/Pro-Tips), [Settings Presets](https://github.com/KoboldAI/KoboldAI-Client/wiki/Settings-Presets) |
 | VE FORBRYDERNE | Author | [Settings](https://github.com/KoboldAI/KoboldAI-Client/wiki/Settings), [Soft Prompts](https://github.com/KoboldAI/KoboldAI-Client/wiki/Soft-Prompts) |
 
