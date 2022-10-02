@@ -1,6 +1,13 @@
 ## Introduction
 Welcome to the KoboldAI wiki!<br>
-This Wiki is maintained by KoboldAI's community based on their experience with the software.
+This Wiki is maintained by KoboldAI's community based on their experience with the software.<br>
+
+Nevertheless, the table below lists the users who have contributed the most to this Wiki.
+| Nickname | Role | Pages |
+| --- | --- | --- |
+| ebolam | Wiki creator | None |
+| LightSaveUs | Wiki editor, Author | [Home](https://github.com/KoboldAI/KoboldAI-Client/wiki), [F.A.Q](https://github.com/KoboldAI/KoboldAI-Client/wiki/F.A.Q), [Models](https://github.com/KoboldAI/KoboldAI-Client/wiki/Models), [Pro Tips](https://github.com/KoboldAI/KoboldAI-Client/wiki/Pro-Tips), [Settings Presets](https://github.com/KoboldAI/KoboldAI-Client/wiki/Settings-Presets) |
+| VE FORBRYDERNE | Author | [Settings](https://github.com/KoboldAI/KoboldAI-Client/wiki/Settings), [Soft Prompts](https://github.com/KoboldAI/KoboldAI-Client/wiki/Soft-Prompts) |
 
 ## Your gateway to GPT writing
 
