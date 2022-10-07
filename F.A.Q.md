@@ -9,29 +9,29 @@ A: Token is a piece of word (about 3-4 characters) or a whole word. Tokens are e
 Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
 
-Q: How long do models take to load?<br>
-A: It depends on the size of the model. The bigger the model, the longer the loading time. On average, 2.7B models take 5 minutes to load, 6B models take 10 minutes, and 13B models take 15 minutes.
-
 Q: What are 2.7B, 6B, 13B, 20B?<br>
-A: These are the sizes of AI models, measured in billions of parameters. Accordingly, 2.7B = 2.7 billion-parameter, 6B = 6 billion-parameter, 13B = 13 billion-parameter, 20B = 20 billion-parameter.
+A: These are the sizes of AI models, measured in billions of parameters. Accordingly, 2.7B = 2.7 billion parameters, 6B = 6 billion parameters, 13B = 13 billion parameters, 20B = 20 billion parameters and so on.
 
 Q: What are the differences between 2.7B, 6B, 13B, 20B models?<br>
-A: In short, the coherence of the output. Its basically how big the AI's brain is. Example: Imagine the brain off a child versus the brain of an adult. You can teach them the exact same thing and they can do the exact same thing. However, the adult brain will learn it better. So the bigger the models size (the number of billion-paramater), the better the model's understanding of your input.
+A: In short, the coherence of the output. Its basically how big the AI's brain is. Example: Imagine the brain off a child versus the brain of an adult. You can teach them the exact same thing and they can do the exact same thing. However, the adult brain will learn it better. So the bigger the models size (the number of billion-paramater), the better the model's understanding of your input. Models that have less than 6 billion parameters usually have poor coherence, including 2.7B models.
+
+Q: How long do models take to load?<br>
+A: It depends on the size of the model and therefore on the accelerator you use (in Colab it is TPU and GPU). The larger the model size, the longer it takes to load. The TPU takes longer to load, the GPU takes faster. The following are the average results for model size loading speed on Colab. They may vary depending on different circumstances. 2.7B = up to 5 minutes and longer, 6B models = up to 10 minutes and longer, 13B models = up to 15 minutes and longer. The 20B models were not loaded because they could barely squeeze into the amount of resources allocated by Colab on the TPU.
 
 Q: How are models made?<br>
-A: They take a large amount of text from stories and stuff, then run the program through a special training protocol to make sure it can spit out generated text without it basically being just ripped out of the pre-established text.
-
-Q: Why are there several models with the same name but different size (in billion-parameter)?<br>
-A: Roughly speaking, a finetuned model (a model that is not generic) is trained on datasets. Therefore, datasets can be applied to train models with any number of billion-parameters. Thus, a dataset that is used in a Nerys model, for example, can be "fed" to a generic 2.7B model to get a Nerys 2.7B model.
+A: In order to make the model, the following will be required. First you need to take a huge amount of date. The date consists of text files containing stories, novels, and any other literature. A dataset is formed from this. The dataset is "fed" to a special program and the training process begins. When it is completed, an AI model is created capable of generating a new text based on the dataset loaded into it.
 
 Q: What is a finetuned model? How is it different from a generic one?<br>
-A: A finetuned model is a generic model that has been "fed" a certain dataset and then edited manually. Generic model is the original model. It is not trained for anything specific. As an example, imagine that generic model is a blank sheet of paper on which you can paint a new picture with colors (dataset) and a stroke of the brush (finetune). For this reason, it can be used to train finetuned models. Using one generic model, you can train many finetuned models by giving it different datasets.
+A: A finetuned model is a generic model that has been "fed" a certain dataset and then edited manually. Generic model is the original model. It is not trained for anything specific. As an example, imagine that generic model is a blank sheet of paper on which you can paint a new picture with colors (dataset) and a stroke of the brush (finetune). For this reason, it can be used to train finetuned models. Using one generic model, you can train many finetuned models by giving it different datasets and finetuning.
 
 Q: What is a dataset?<br>
-A: A dataset is a collection of text files. The texts can be anything from fanfiction to science fiction. It all depends on the purpose for which the dataset is used. For example, if you want to train a model for NSFW content (which is biased toward this type of content), then the dataset will be the appropriate material (18+ stories).
+A: A dataset is a collection of text files. The texts can be anything from fanfiction to science fiction. It all depends on the purpose for which the dataset is used. For example, if you want to train a model for NSFW content (which is biased toward this type of content), then the dataset will be the appropriate material (18+ stories and novels).
 
-Q: What is finetune?<br>
-A: Finetune is the process by which a model author loads the dataset in a model, train it and then edits the resulting model. This may be necessary to fix problems in the model's text output (for example, problems with text formatting). Thus, by finetuning the author of the model makes it biased towards anything specific and corrects flaws that appeared after the end of the model training process.
+Q: Why are there several models with the same name but different size (in billion parameters)?<br>
+A: Roughly speaking, a finetuned model (a model that is not generic) is trained on datasets. Therefore, datasets can be applied to train models with any number of billion parameters. Thus, a dataset that is used in a Nerys model, for example, can be "fed" to a generic 2.7B model to get a Nerys 2.7B model.
+
+Q: What is finetuning?<br>
+A: Finetuning is the process by which a model author loads the dataset in a model, train it and then edits the resulting model. This may be necessary to fix problems in the model's text output (for example, problems with text formatting). Thus, by finetuning the author of the model makes it biased towards anything specific and corrects flaws that appeared after the end of the model training process.
 
 Q: Can I create my own model if I have an idea for it and a suitable dataset?<br>
 A: Yes, you can. However, you will need a lot of processing power to do that. Without going into detail, the model training process is done on the GPUs. You will need to use a huge amount of them. As an example, total training time for Sberbank's ruGPT-3 Large model was around 14 days on 128 GPUs for 1024 context and few days on 16 GPUs for 2048 context (considering that this is far from being the largest AI model).
@@ -82,7 +82,7 @@ Q: Can I use settings presets created for 13B models on 6B models, for example?<
 A: No, as the presets were created for a specific model format. The 13B model format (Fairseq Dense) does not match the 6B model format (GPT-J-6B). Thus, the effect will not be the same, even though the presets will work even on unsuitable model formats.
 
 Q: What is a model format?<br>
-A: This is the designation of the initial model, which was used to create other models. For example, the Fairseq Dense was used as the initial model to train all other 13B models in KoboldAI, GPT-J-6B to train 6B models and GPT-Neo-2.7B to train all the 2.7B models.
+A: These are the names of the generic models that were used to create other models. For example, the untuned Fairseq Dense model was used to create the Janeway and Shinen models, and the untuned OPT for the Nerys and Erebus. For more information on the technical characteristics of specific model formats, see the corresponding documentation. It can be found on the original models page of the Huggingface website, or you can do a web search.
 
 Q: Can I create a settings preset?<br>
 A: Yes, you can. Settings presets are created by changing the value of settings, turning them off or on, and changing the samplers order. To get your settings preset into the list of original presets created for KoboldAI, write to the appropriate channel in Discord, making sure to include the name and description of the preset.
