@@ -40,7 +40,7 @@ Settings presets created by NovelAI users.
 | Co-Writer | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
 | Damn Decent | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
 | Decadence | Neo(X) (20B) |
-| Emerald | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
+| Emerald | Neo(X) (20B) |
 | Fever Dreams | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
 | Gojira | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
 | Lycaenidae | Nerys, Janeway, Shinen, Fairseq Dense (13B) |
