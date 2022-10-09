@@ -35,22 +35,22 @@ Note: These presets are mostly suitable for KoboldAI models trained on Fairseq-D
 Settings presets created by NovelAI users.
 | Name | Compatible KoboldAI Models |
 | --- | --- |
-| Aces High | Skein, Neo(X) (20B) |
+| Aces High | Erebus, Skein, Neo(X) (20B) |
 | Swansong | Janeway, Shinen, Fairseq Dense (13B) |
 | Co-Writer | Janeway, Shinen, Fairseq Dense (13B) |
 | Damn Decent | Janeway, Shinen, Fairseq Dense (13B) |
-| Decadence | Skein, Neo(X) (20B) |
-| Emerald | Skein, Neo(X) (20B) |
+| Decadence | Erebus, Skein, Neo(X) (20B) |
+| Emerald | Erebus, Skein, Neo(X) (20B) |
 | Fever Dreams | Janeway, Shinen, Fairseq Dense (13B) |
 | Gojira | Janeway, Shinen, Fairseq Dense (13B) |
 | Lycaenidae | Janeway, Shinen, Fairseq Dense (13B) |
 | Monarch | Janeway, Shinen, Fairseq Dense (13B) |
 | Monkey Business | Skein, Adventure, Lit, GPT-J-6B (6B) - Janeway, Shinen, Fairseq Dense (13B) |
 | Mothra | Skein, Adventure, Lit, GPT-J-6B (6B) - Janeway, Shinen, Fairseq Dense (13B) |
-| Necromancer | Skein, Neo(X) (20B) |
+| Necromancer | Erebus, Skein, Neo(X) (20B) |
 | Nymphalidae | Janeway, Shinen, Fairseq Dense (13B) |
-| Red Viper | Skein, Neo(X) (20B) |
-| Top Gun | Skein, Neo(X) (20B) |
+| Red Viper | Erebus, Skein, Neo(X) (20B) |
+| Top Gun | Erebus, Skein, Neo(X) (20B) |
 | Trust | Janeway, Shinen, Fairseq Dense (13B) |
 | Weaver | Janeway, Shinen, Fairseq Dense (13B) |
 ## [Original Presets](https://drive.google.com/drive/folders/1DU0jXN8TtDEpPVZAlEn7ZsYYhh0io4qa)
