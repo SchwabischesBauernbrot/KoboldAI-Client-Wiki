@@ -5,7 +5,7 @@ The names and descriptions are taken from NovelAI. For the custom presets, there
 
 ## [6B Models](https://drive.google.com/drive/folders/1mXG126USSEfJmd444QgGMgGQScABAPou)
 The settings presets created in NovelAI for the Sigurd model. <br>
-Note: These presets are mostly suitable for KoboldAI models trained on GPT-J (Skein, Adventure, Lit, GPT-J-6B).
+Note: These presets are mostly suitable for KoboldAI models trained on GPT-J (Skein 6B, Adventure 6B, Janeway 6B, Shinen 6B, Lit V2 6B, Lit 6B, GPT-J-6B).
 
 | Name | Description |
 | --- | --- |
@@ -18,7 +18,7 @@ Note: These presets are mostly suitable for KoboldAI models trained on GPT-J (Sk
 | Pleasing Results | Expectable output with alternative context settings. |
 ## [13B Models](https://drive.google.com/drive/folders/1kTKfVn0nvYdv7IsUOQbpGWc_1SMP15wn)
 Settings presets created in NovelAI for the Euterpe model. <br>
-Note: These presets are mostly suitable for KoboldAI models trained on Fairseq-Dense (Janeway, Shinen, Fairseq Dense).
+Note: These presets are mostly suitable for KoboldAI models trained on Fairseq Dense (Janeway 13B, Shinen 13B, Fairseq Dense 13B).
 | Name | Description |
 | --- | --- |
 | Genesis | Stable and logical, but with scattered creativity. |
@@ -35,24 +35,26 @@ Note: These presets are mostly suitable for KoboldAI models trained on Fairseq-D
 Settings presets created by NovelAI users.
 | Name | Compatible KoboldAI Models |
 | --- | --- |
-| Aces High | Erebus, Skein, Neo(X) (20B) |
-| Swansong | Janeway, Shinen, Fairseq Dense (13B) |
-| Co-Writer | Janeway, Shinen, Fairseq Dense (13B) |
-| Damn Decent | Janeway, Shinen, Fairseq Dense (13B) |
-| Decadence | Erebus, Skein, Neo(X) (20B) |
-| Emerald | Erebus, Skein, Neo(X) (20B) |
-| Fever Dreams | Janeway, Shinen, Fairseq Dense (13B) |
-| Gojira | Janeway, Shinen, Fairseq Dense (13B) |
-| Lycaenidae | Janeway, Shinen, Fairseq Dense (13B) |
-| Monarch | Janeway, Shinen, Fairseq Dense (13B) |
-| Monkey Business | Skein, Adventure, Lit, GPT-J-6B (6B) - Janeway, Shinen, Fairseq Dense (13B) |
-| Mothra | Skein, Adventure, Lit, GPT-J-6B (6B) - Janeway, Shinen, Fairseq Dense (13B) |
-| Necromancer | Erebus, Skein, Neo(X) (20B) |
-| Nymphalidae | Janeway, Shinen, Fairseq Dense (13B) |
-| Red Viper | Erebus, Skein, Neo(X) (20B) |
-| Top Gun | Erebus, Skein, Neo(X) (20B) |
-| Trust | Janeway, Shinen, Fairseq Dense (13B) |
-| Weaver | Janeway, Shinen, Fairseq Dense (13B) |
+| Aces High | Erebus 20B, Skein 20B, Neo(X) 20B |
+| Swansong | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Co-Writer | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Damn Decent | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Decadence | Erebus 20B, Skein 20B, Neo(X) 20B |
+| Emerald | Erebus 20B, Skein 20B, Neo(X) 20B |
+| Fever Dreams | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Gojira | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Lycaenidae | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Monarch | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Monkey Business 6B | Skein 6B, Adventure 6B, Janeway 6B, Shinen 6B, Lit V2 6B, Lit 6B, GPT-J-6B |
+| Monkey Business 13B | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Mothra 6B | Skein 6B, Adventure 6B, Janeway 6B, Shinen 6B, Lit V2 6B, Lit 6B, GPT-J-6B |
+| Mothra 13B | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Necromancer | Erebus 20B, Skein 20B, Neo(X) 20B |
+| Nymphalidae | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Red Viper | Erebus 20B, Skein 20B, Neo(X) 20B |
+| Top Gun | Erebus 20B, Skein 20B, Neo(X) 20B |
+| Trust | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
+| Weaver | Janeway 13B, Shinen 13B, Fairseq Dense 13B |
 ## [Original Presets](https://drive.google.com/drive/folders/1DU0jXN8TtDEpPVZAlEn7ZsYYhh0io4qa)
 Settings presets created by KoboldAI users.
 | Name | Author | Model | Description |
