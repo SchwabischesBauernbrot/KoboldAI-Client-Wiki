@@ -115,6 +115,9 @@ A: In order to work, AI models must run on the GPU or TPU. It is possible to run
 Q: Why can't we run all models on the GPU?<br>
 A: Theoretically, we can. Moreover, the GPU is better suited to run AI models than TPU. However, it is worth remembering that each model requires a certain amount of VRAM/RAM and disk space to run. The current free GPU in Colab only gives 12GB RAM, which is clearly not enough to run models bigger than 6B. That's why the TPU is used to run models from 6B (it provides much more RAM).
 
+Q: What is the maximum size of the AI model that I can load into Colab using the TPU?<br>
+A: 20B. TPU-v2's have 8GB of memory per core. Colab gives a TPUv2-8 so 64GB of space to fit stuff in. However, it's a seperate hardware device so it has to fit the model and KoboldAI's backend. With 20B you can fit the model and one backend. With 30B you may succeed in copying the model, but the backend will never compile.
+
 Q: I keep getting a message that TPU accelerators are not available.<br>
 A: The use of TPU in Colab is limited because of the need to share this resource among all users. It depends on the frequency and duration of your TPU usage as well as busy hours. To solve this problem, try waiting 1 to 5 minutes on the TPU Colab page without reloading it, and then click "Connect" again. Repeat until you get access, or try again later.
 
