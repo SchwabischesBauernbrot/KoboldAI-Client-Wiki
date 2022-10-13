@@ -61,13 +61,13 @@ Each edition features different models and requires different hardware to run, t
 **[Click here for the GPU Edition Colab](https://colab.research.google.com/github/KoboldAI/KoboldAI-Client/blob/main/colab/GPU.ipynb)**
 
 ## Install KoboldAI on your own computer
-### Installing KoboldAI offline bundle on Windows 7
+### Installing KoboldAI offline bundle on Windows 7 or higher
 1. [Download the latest offline installer from here](https://sourceforge.net/projects/koboldai/files/latest/download)
 2. Run the installer to place KoboldAI on a location of choice, KoboldAI is portable software and is not bound to a specific harddrive. (Because of long paths inside our dependencies you may not be able to extract it many folders deep).
 3. Update KoboldAI to the latest version with update-koboldai.bat if desired.
 4. Use KoboldAI offline using play.bat or remotely with remote-play.bat
 
-### Installing KoboldAI Github release on Windows 10
+### Installing KoboldAI Github release on Windows 10 or higher
 1. Extract the .zip to a location you wish to install KoboldAI, you will need roughly 20GB of free space for the installation (this does not include the models).
 2. Open install_requirements.bat as administrator.
 3. Choose the regular version of Transformers (Option 1), finetuneanon is depreciated and no longer recommended.
