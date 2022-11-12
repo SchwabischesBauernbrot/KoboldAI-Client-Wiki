@@ -4,7 +4,7 @@ The answers are based on users' experiences with KoboldAI, so they may not alway
 
 ## KoboldAI
 Q: What is a token?<br>
-A: Token is a piece of word (about 3-4 characters) or a whole word. Tokens are essentially the number of words that go into the AI pool to create the response.
+A: Token is a piece of word (about 3-4 characters) or a whole word. Tokens go into the AI pool to create the response.
 
 Q: What are the models?<br>
 A: Models are differently trained and finetuned AI units capable of generating text output.
