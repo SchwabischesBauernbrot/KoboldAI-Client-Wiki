@@ -107,7 +107,7 @@ Q: I am getting an Argo Tunnel error when I click the Cloudflare link generated 
 A: Wait a while and reload the page. Repeat until the KoboldAI Client page appears instead of the Error 1033 page. If that didn't work, then pause the code execution and restart the model download to make the new Cloudflare link appear.
 
 Q: What are the differences between the GPU and TPU versions of KoboldAI?<br>
-A: In order to work, AI models must run on the GPU or TPU. It is possible to run models from 1.3B (and smaller) to 6B on the free GPU available from Colab. Bigger models, from 6B up to 20B, can only be run on a TPU. This is due to GPU restrictions imposed by Colab developers. So the answer is: The size of the models you can run on the GPU and TPU versions.
+A: In order to work, AI models must run on the GPU or TPU. It is possible to run models from 1.3B (and smaller) to 6B on the free GPU available in Colab. Bigger models, from 6B up to 20B, can only be run on a TPU. This is due to GPU restrictions imposed by Colab developers. So the answer is: The size of the models you can run on the GPU and TPU versions.
 
 Q: How long do models take to load?<br>
 A: It depends on the size of the model and the acceleration unit (TPU or GPU). TPU needs to load the model into each of the 8 cores, which takes some extra time. The GPU loads the model directly. For this reason, when loading a model of the same size (up to 6B) on the TPU and GPU, loading on the latter will be faster. Nevertheless, the following are the average results for models loading speed on Colab. They may vary depending on different circumstances. 2.7B = up to 5 minutes and longer, 6B models = up to 10 minutes and longer, 13B models = up to 15 minutes and longer. The 20B models were not loaded because they could barely squeeze into the amount of resources allocated by Colab on the TPU.
@@ -115,8 +115,8 @@ A: It depends on the size of the model and the acceleration unit (TPU or GPU). T
 Q: Why can't we run all models on the GPU?<br>
 A: Theoretically, we can. Moreover, the GPU is better suited to run AI models than TPU. However, it is worth remembering that each model requires a certain amount of VRAM/RAM and disk space to run. The current free GPU in Colab only gives 12GB RAM, which is clearly not enough to run models bigger than 6B. That's why the TPU is used to run models from 6B (it provides much more RAM).
 
-Q: What is the maximum size of the AI model that I can load into Colab using the TPU?<br>
-A: 20B. TPU-v2's have 8 GB of memory per core. Colab gives a TPUv2-8 so 64 GB of space to fit stuff in. However, it's a seperate hardware device so it has to fit the model and KoboldAI's backend. With 20B you can fit the model and one backend. With 30B you may succeed in copying the model, but the backend will never compile.
+Q: What is the maximum size of the AI model that I can load in Colab using the TPU?<br>
+A: 20B. TPU-v2's have 8 GB of memory per core. Colab gives a TPUv2-8 so 64 GB of space to fit stuff in. However, it's a separate hardware device so it has to fit the model and KoboldAI's backend. With 20B you can fit the model and one backend. With 30B you may succeed in copying the model, but the backend will never compile.
 
 Q: I keep getting a message that TPU accelerators are not available.<br>
 A: The use of TPU in Colab is limited because of the need to share this resource among all users. It depends on the frequency and duration of your TPU usage as well as busy hours. To solve this problem, try waiting 1 to 5 minutes on the TPU Colab page without reloading it, and then click "Connect" again. Repeat until you get access, or try again later.
