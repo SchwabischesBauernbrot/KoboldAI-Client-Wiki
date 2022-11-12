@@ -15,9 +15,6 @@ A: These are the sizes of AI models, measured in billions of parameters. Accordi
 Q: What are the differences between 2.7B, 6B, 13B, 20B models?<br>
 A: In short, the coherence of the output. Its basically how big the AI's brain is. Example: Imagine the brain off a child versus the brain of an adult. You can teach them the exact same thing and they can do the exact same thing. However, the adult brain will learn it better. So the bigger the models size (the number of billion-parameter), the better the model's understanding of your input. Models that have less than 6 billion parameters usually have poor coherence, including 2.7B models and lower.
 
-Q: How long do models take to load?<br>
-A: It depends on the size of the model and the acceleration unit (TPU or GPU). TPU needs to load the model into each of the 8 cores, which takes some extra time. The GPU loads the model directly. For this reason, when loading a model of the same size (up to 6B) on the TPU and GPU, loading on the latter will be faster. Nevertheless, the following are the average results for models loading speed on Colab. They may vary depending on different circumstances. 2.7B = up to 5 minutes and longer, 6B models = up to 10 minutes and longer, 13B models = up to 15 minutes and longer. The 20B models were not loaded because they could barely squeeze into the amount of resources allocated by Colab on the TPU.
-
 Q: How are models made?<br>
 A: In order to make the model, the following will be required. First you need to take a huge amount of date. The date consists of text files containing stories, novels, and any other literature. A dataset is formed from this. The dataset is "fed" to a special program and the training process begins. When it is completed, an AI model is created capable of generating a new text based on the dataset loaded into it.
 
@@ -111,6 +108,9 @@ A: Wait a while and reload the page. Repeat until the KoboldAI Client page appea
 
 Q: What are the differences between the GPU and TPU versions of KoboldAI?<br>
 A: In order to work, AI models must run on the GPU or TPU. It is possible to run models from 1.3B (and smaller) to 6B on the free GPU available from Colab. Bigger models, from 6B up to 20B, can only be run on a TPU. This is due to GPU restrictions imposed by Colab developers. So the answer is: The size of the models you can run on the GPU and TPU versions.
+
+Q: How long do models take to load?<br>
+A: It depends on the size of the model and the acceleration unit (TPU or GPU). TPU needs to load the model into each of the 8 cores, which takes some extra time. The GPU loads the model directly. For this reason, when loading a model of the same size (up to 6B) on the TPU and GPU, loading on the latter will be faster. Nevertheless, the following are the average results for models loading speed on Colab. They may vary depending on different circumstances. 2.7B = up to 5 minutes and longer, 6B models = up to 10 minutes and longer, 13B models = up to 15 minutes and longer. The 20B models were not loaded because they could barely squeeze into the amount of resources allocated by Colab on the TPU.
 
 Q: Why can't we run all models on the GPU?<br>
 A: Theoretically, we can. Moreover, the GPU is better suited to run AI models than TPU. However, it is worth remembering that each model requires a certain amount of VRAM/RAM and disk space to run. The current free GPU in Colab only gives 12GB RAM, which is clearly not enough to run models bigger than 6B. That's why the TPU is used to run models from 6B (it provides much more RAM).
