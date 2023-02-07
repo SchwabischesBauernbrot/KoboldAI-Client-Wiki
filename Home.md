@@ -47,7 +47,7 @@ You : For sure! What is your favorite game?
 
 Its recommended to have your own input be the last input, especially in the beginning its possible that the AI mixes up the names. In that case either retry or manually correct the name. This behavior improves as the chat progresses. Some models may swap names if they are more familiar with a different name that is similar to the name you defined for the bot. In that case you can either do the occasional manual correction or choose a name for your chatbot that the AI likes better.
 
-This mode works the best on either a Generic model or a chatbot model specifically designed for it, some models like the AvrilAI model are instead designed to be used in Adventure mode and do not conform to the format above. These models typically ship with adventure mode enabled by default and should not be switched over to chatbot mode.
+This mode works the best on either a Generic model or a chatbot model specifically designed for it. Some models like the AvrilAI model are instead designed to be used in Adventure mode and do not conform to the format above. Also these models typically ship with adventure mode enabled by default and should not be switched over to chatbot mode.
 
 Novel or Adventure models are not recommended for this feature but might still work but can derail away from the conversation format quickly.
 
