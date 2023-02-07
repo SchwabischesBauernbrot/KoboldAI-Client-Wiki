@@ -21,7 +21,7 @@ By default KoboldAI will run in a generic mode optimized for writing, but with t
 
 The gameplay will be slightly different than the gameplay in AI Dungeon because we adopted the Type of the Unleashed fork, giving you full control over all the characters because we do not automatically adapt your sentences behind the scenes. This means you can more reliably control characters that are not you.
 
-As a result of this what you need to type is slightly different, in AI Dungeon you would type take the sword while in KoboldAI you would type it like a sentence such as You take the sword and this is best done with the word You instead of I.
+As a result of this what you need to type is slightly different, in AI Dungeon you would type *Take the sword* while in KoboldAI you would type it like a sentence such as *You take the sword* and this is best done with the word You instead of I.
 
 To speak, simply type: *You say "We should probably gather some supplies first"*<br>
 Just typing the quote might work, but the AI is at its best when you specify who does what in your commands.
