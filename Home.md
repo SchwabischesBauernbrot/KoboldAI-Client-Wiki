@@ -40,7 +40,7 @@ In chatbot mode you can use a suitable model as a chatbot, this mode automatical
 Bot : Hey!
 You : Hey Boyname, how have you been?
 Bot : Been good! How about you?
-You : Been great to, excited to try out KoboldAI
+You : Been great too, excited to try out KoboldAI
 Bot : KoboldAI is really fun!
 You : For sure! What is your favorite game?
 ```
