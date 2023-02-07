@@ -23,7 +23,7 @@ The gameplay will be slightly different than the gameplay in AI Dungeon because 
 
 As a result of this what you need to type is slightly different, in AI Dungeon you would type take the sword while in KoboldAI you would type it like a sentence such as You take the sword and this is best done with the word You instead of I.
 
-To speak, simply type: *You say "We should probably gather some supplies first"*<br>
+To speak, simply type: \*You say "We should probably gather some supplies first"\*<br>
 Just typing the quote might work, but the AI is at its best when you specify who does what in your commands.
 
 If you want to do this with your friends we advise using the main character as You and using the other characters by their name if you are playing on a model trained for Adventures. These models assume there is a You in the story. This mode does usually not perform well on Novel models because they do not know how to handle the input those are best used with regular story writing where you take turns with the AI.
